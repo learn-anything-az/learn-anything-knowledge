@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac292f788149ac92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
+                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
+                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
+                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md"
+                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md"
               }
             }
           }
@@ -160,8 +147,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac292f788149ac92",
+  "active": "44d88177dd45e27d",
   "lastOpenFiles": [
+    "Pasted image 20231120194154.png",
+    "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "assets/images/chay-chuong-trinh-python-tren-github-codespace.png",
     "assets/images/chay-python-tren-moi-truong-gitpod.png",
     "assets/images/cai-dat-extension-python-tren-visual-studio-gitpod.png",
@@ -170,7 +159,6 @@
     "assets/images/su-dung-jupyter-notebook-tren-github-codespace-lap-trinh-python.png",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/python-trong-phan-tich-tai-chinh.md",
-    "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/python/hoc-python-cung-learn-anything.md",
     "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
@@ -183,7 +171,6 @@
     "assets/images/obsidian-markdown-comment.png",
     "assets/images/dinh-dang-callout-trong-obsidian-markdown.png",
     "assets/images/heading-trong-obsidian-markdown.png",
-    "assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
     "gioi-thieu/index.md",
     "_posts/2017-12-15-table-example.md",
     "_posts/2023-04-10-Stop Overthinking.md",
