@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md",
+                "file": "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md",
+                "file": "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md",
+                "file": "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md"
+                "file": "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md"
               }
             }
           }
@@ -162,13 +162,13 @@
   },
   "active": "10b13c9d66e731d2",
   "lastOpenFiles": [
+    "khoa-hoc/hoc-tap-cung-learn-anything.md",
     "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "assets/images/obsidian-markdown-comment.png",
     "assets/images/dinh-dang-callout-trong-obsidian-markdown.png",
-    "khoa-hoc/hoc-tap-cung-learn-anything.md",
     "assets/images/heading-trong-obsidian-markdown.png",
     "assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
     "kien-thuc/obsidian/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
