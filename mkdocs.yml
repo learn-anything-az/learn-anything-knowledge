@@ -162,9 +162,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra:
-  analytics:
-    # provider: google
-    # property: G-DJT4KFYTW8
+  analytics: # Sử dụng GTM là công cụ quản lý các thẻ theo dõi trên web
+    provider: google
+    property: GTM-MCVBKHK6
     provider: custom
     property: Google Tag Manager
   social:
@@ -195,7 +195,10 @@ nav:
     - Bắt đầu: gioi-thieu/index.md
     # - Lịch sử cập nhật: gioi-thieu/changes_log.md
     - Trích dẫn: gioi-thieu/cite.md
-  - Obsidian: kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md
+  - Obsidian: 
+    - Giới thiệu: kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md
+    - Cài đặt: kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md
+    - Obsidian markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
   # - Python: kien-thuc/python/hoc-python-cung-learn-anything.md
   # - Prompt Engineering: kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md
   - Khóa học: khoa-hoc/hoc-tap-cung-learn-anything.md
