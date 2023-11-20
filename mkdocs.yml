@@ -166,7 +166,6 @@ extra:
     provider: google
     property: GTM-MCVBKHK6
     provider: custom
-    property: Google Tag Manager
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@learn_anything_az?sub_confirmation=1
