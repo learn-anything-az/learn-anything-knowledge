@@ -198,10 +198,15 @@ nav:
     - Giới thiệu: kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md
     - Cài đặt: kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md
     - Obsidian markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
-  # - Python: kien-thuc/python/hoc-python-cung-learn-anything.md
+  - Python: 
+    - Giới thiệu: kien-thuc/python/hoc-python-cung-learn-anything.md
+    - Môi trường Python: kien-thuc/python/thiet-lap-moi-truong-python.md
+    - Lập trình với AI: kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md
+    - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
+    - Tài liệu tự học Python: kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md
   # - Prompt Engineering: kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md
   - Khóa học: khoa-hoc/hoc-tap-cung-learn-anything.md
-  - Blog: blog/index.md
+  # - Blog: blog/index.md
   # - Python:
   # - Data:
   # - Công nghệ:
