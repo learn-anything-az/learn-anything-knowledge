@@ -200,10 +200,12 @@ nav:
     - Obsidian markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
   - Python: 
     - Giới thiệu: kien-thuc/python/hoc-python-cung-learn-anything.md
-    - Môi trường Python: kien-thuc/python/thiet-lap-moi-truong-python.md
+    - Thiết lập môi trường Python: kien-thuc/python/thiet-lap-moi-truong-python.md
+    - Cài đặt gói thư viện Python: kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md
     - Lập trình với AI: kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md
-    - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
     - Tài liệu tự học Python: kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md
+    - Lý do học Python không thành: kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md
+    # - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
   # - Prompt Engineering: kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md
   - Khóa học: khoa-hoc/hoc-tap-cung-learn-anything.md
   # - Blog: blog/index.md

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md",
+                "file": "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 399.5,
+    "collapsed": true
   },
   "right": {
     "id": "804415cfd1e3e680",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md",
+                "file": "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md",
+                "file": "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/python/hoc-python-cung-learn-anything.md"
+                "file": "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md"
               }
             }
           }
@@ -134,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,28 +151,29 @@
   },
   "active": "44d88177dd45e27d",
   "lastOpenFiles": [
-    "Pasted image 20231120194154.png",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
+    "kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md",
+    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+    "assets/images/cai-dat-thu-vien-python-voi-pip-trong-google-colab.png",
+    "assets/images/cai-dat-thu-vien-python-voi-pip-visual-studio-code-jupyter-notebook.png",
+    "assets/images/cai-dat-thu-vien-vnstock-voi-terminal-tren-windows.png",
+    "kien-thuc/python/hoc-python-cung-learn-anything.md",
+    "assets/images/moi-truong-lap-trinh-python-mien-phi-voi-Replit.png",
+    "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
+    "assets/images/github-copilot-chat-trong-visual-studio-code.png",
+    "assets/images/prompt-yeu-cau-github-copilot-viet-code-trong-visual-studio-code.png",
+    "Pasted image 20231120194154.png",
     "assets/images/chay-chuong-trinh-python-tren-github-codespace.png",
     "assets/images/chay-python-tren-moi-truong-gitpod.png",
     "assets/images/cai-dat-extension-python-tren-visual-studio-gitpod.png",
-    "assets/images/thiet-lap-moi-truong-lam-viec-python-voi-gitpod.png",
-    "assets/images/giao-dien-google-colab-lap-trinh-python.png",
-    "assets/images/su-dung-jupyter-notebook-tren-github-codespace-lap-trinh-python.png",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/python-trong-phan-tich-tai-chinh.md",
-    "kien-thuc/python/hoc-python-cung-learn-anything.md",
-    "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
-    "assets/images/obsidian-markdown-dang-danh-sach.png",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md.md",
     "khoa-hoc/hoc-tap-cung-learn-anything.md",
     "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
-    "assets/images/obsidian-markdown-comment.png",
-    "assets/images/dinh-dang-callout-trong-obsidian-markdown.png",
-    "assets/images/heading-trong-obsidian-markdown.png",
     "gioi-thieu/index.md",
     "_posts/2017-12-15-table-example.md",
     "_posts/2023-04-10-Stop Overthinking.md",
@@ -190,7 +193,6 @@
     "_includes/notes_graph.html",
     "_site/2023/11/17/cong-cu-giup-lap-trinh-tren-moi-thiet-bi-moi-luc-moi-noi.html",
     "_posts/src/template/Post.md",
-    "_posts/src/template/New Note.md",
     "_posts/src/template",
     "_posts/src/9 Pricing Strategies you should know.pdf",
     "_posts/src",

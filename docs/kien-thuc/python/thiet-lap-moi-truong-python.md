@@ -1,10 +1,11 @@
-# Thiết lập môi trường Python
+# Khởi động môi trường Python
 
 ## Python trên cloud
 
-!!! abstract 
+!!! abstract "Chọn môi trường Python phù hợp"
 	Bạn có thể sử dụng các chương trình python để thực thi trên môi trường đám mây mà không cần trải qua các bước cài đặt phức tạp. Dưới đây là các dịch vụ đám mây cho phép chạy Python ngay lập tức.
 
+Để sử dụng dịch vụ cho phép chạy Python trên cloud, bạn cần đăng ký dịch vụ. Với tài khoản Github và Google, bạn có thể chọn đăng nhập các dịch vụ này ngay lập tức mà không phải trải qua các bước tạo tài khoản mất thời gian.
 ### Google Colab
 
 > [Colaboratory](https://colab.research.google.com/) (hay Colab) là dịch vụ miễn phí của Google cho phép bạn soạn thảo và thực thi Python ngay trên trình duyệt web với nhiều tính năng ưu việt.
@@ -48,10 +49,20 @@ Tuy Github Codespace và Gitpod cung cấp môi trường Python và khả năng
 Để làm việc với Gitpod bạn cần có tài khoản Github để đăng nhập và lưu trữ mã nguồn dự án.
 
 Khi sử dụng Gitpod, không có tính năng môi trường mẫu được thiết lập sẵn, do đó để chạy được Python bạn phải cài extension (tự động nhận diện) sau đó phải cài thêm các gói thư viện cơ bản kể cả pandas mà dự án bạn cần dùng. Như vậy bạn phải mất thời gian thiết lập môi trường thay vì sử dụng ngay lập tức như Github Codespace.
+
+### Replit
+
+> [Replit](https://replit.com/) cung cấp môi trường lập trình trực tuyến cho phép người dùng biến ý tưởng lập trình thành dự án thực tế thông qua bộ công cụ tích hợp của dịch vụ thông qua trình duyệt web hoặc app trên máy tính. Mặc định bạn có thể tạo và lưu trữ các dự án Python qua Replit một cách công khai và miễn phí. Bạn cần trả phí để có thể bảo mật mã nguồn dự án của mình với phí $120/năm hoặc $20/tháng.
+
+![](../../assets/images/moi-truong-lap-trinh-python-mien-phi-voi-Replit.png)
+Điểm thú vị của Replit là nó cung cấp công cụ AI ngay trong môi trường lập trình giúp bạn code "nhàn" hơn và tiết kiệm.
 ## Python trên máy tính cục bộ
 
-### Python tối giản
+### Python thuần
 
+> Python "thuần" tức chỉ cài đặt gói phần mềm Python và cài đặt riêng lẻ các thư viện kèm theo khi cần thiết (bao gồm cả Jupyter Lab/Notebook cho phân tích dữ liệu). Điều này khác với việc cài gói Anaconda bao gồm hầu hết các thư viện python (package) dù bạn có sử dụng tới hay không. Cách tiếp cận này giúp bạn tiết kiệm dung lượng bộ nhớ máy khi máy tính có cấu hình phần cứng không mạnh mẽ vượt trội. 
 
 ### Python với Anaconda
+
+> Anaconda là một gói phần mềm cho ngôn ngữ lập trình Python và R dành cho mục đích tính toán khoa học. Gói cài đặt Anaconda chứa hầu hết các thư viện Python phổ biến bạn cần dùng cho dự án của mình. Do đó cài Anaconda bạn có thể bỏ qua bước cài đặt các thư viện phụ thuộc. Đối với các bạn sử dụng Python cho phân tích dữ liệu thì chọn cách tiếp cận này giúp bạn có được môi trường sử dụng Python đầy đủ và nhanh chóng.
 
