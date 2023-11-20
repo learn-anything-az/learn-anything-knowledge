@@ -68,16 +68,7 @@ Dưới đây là cách định dạng các kiểu văn bản phổ biến với
 
 Kết quả thu được như sau:
 
-- Mục 1
-- Mục 2
-  - Mục 2a
-  - Mục 2b
-
-1. Mục 1
-2. Mục 2
-3. Mục 3
-   - Mục 3a
-   - Mục 3b
+![](../../assets/images/obsidian-markdown-dang-danh-sach.png)
 
 ### Quotes - Câu trích dẫn
 
