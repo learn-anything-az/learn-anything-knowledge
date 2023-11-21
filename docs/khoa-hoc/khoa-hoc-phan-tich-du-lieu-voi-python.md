@@ -1,3 +1,16 @@
+---
+date: 2023-11-20
+title: Giới thiệu khóa học phân tích dữ liệu với Python
+description: Chia sẻ chi tiết về nội dung khóa học phân tích dữ liệu với Python
+tags:
+  - python
+  - khóa học
+categories:
+  - Chia sẻ
+authors:
+  - thinh-vu
+---
+
 # Khóa học Phân tích dữ liệu với Python
 
 !!! success "Giới thiệu"

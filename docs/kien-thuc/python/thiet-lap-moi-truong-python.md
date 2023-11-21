@@ -1,3 +1,14 @@
+---
+date: 2023-11-20
+title: Hướng dẫn cách thiết lập môi trường Python
+description: Làm quen nhanh chóng với Python qua hướng dẫn dễ hiểu.
+tags:
+  - python
+categories:
+  - Hướng dẫn
+authors:
+  - thinh-vu
+---
 # Khởi động môi trường Python
 
 ## Python trên cloud

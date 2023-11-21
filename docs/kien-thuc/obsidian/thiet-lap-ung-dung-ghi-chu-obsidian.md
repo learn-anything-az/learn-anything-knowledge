@@ -1,3 +1,15 @@
+---
+date: 2023-11-20
+title: Hướng dẫn cách thiết lập Obsidian cho người mới
+description: Hướng dẫn cách thiết lập ban đầu để sử dụng Obsidian nhanh chóng.
+tags:
+  - obsidian
+categories:
+  - Hướng dẫn
+authors:
+  - thinh-vu
+---
+
 # Thiết lập ứng dụng ghi chú Obsidian
 ## Cài đặt theo thiết bị
 

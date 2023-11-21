@@ -1,3 +1,15 @@
+---
+date: 2023-11-20
+title: 1001 lý do học python không thành công
+description: Những lý do khiến việc học Python thất bại và cách giải quyết.
+tags:
+  - python
+categories:
+  - Chia sẻ
+authors:
+  - thinh-vu
+---
+
 # 1001 lý do học python không thành công
 
 ### Thiết lập mục tiêu không thực tế

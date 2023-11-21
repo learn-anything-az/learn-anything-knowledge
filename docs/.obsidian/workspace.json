@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md",
+                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1906b060a9c05c1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/posts/cai-dat-mkdocs-matterial.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da4e43d5fc33aeae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assets/templates/new-post.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md",
+                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md",
+                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "khoa-hoc/hoc-tap-cung-learn-anything.md"
+                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md"
               }
             }
           }
@@ -150,51 +174,50 @@
   },
   "active": "44d88177dd45e27d",
   "lastOpenFiles": [
-    "stylesheets/extra.css",
-    "stylesheets",
-    "material/overrides/partials/integrations/analytics/custom.html",
-    "material/overrides/partials/integrations/analytics",
-    "material/overrides/partials/integrations",
-    "material/overrides/partials",
-    "material/overrides/main.html",
-    "material/overrides/home.html",
-    "material/overrides",
-    "material",
-    "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
-    "kien-thuc/python/python-trong-phan-tich-tai-chinh.md",
+    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md",
+    "kien-thuc/python/python-trong-phan-tich-tai-chinh.md",
     "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
     "kien-thuc/python/hoc-python-cung-learn-anything.md",
-    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+    "khoa-hoc/hoc-tap-cung-learn-anything.md",
+    "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
+    "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
+    "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
     "kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md",
-    "kien-thuc/python",
-    "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
-    "khoa-hoc/hoc-tap-cung-learn-anything.md",
+    "blog/posts/gioi-thieu-learn-anything-voi-trai-nghiem-moi.md",
+    "blog/posts/cai-dat-mkdocs-matterial.md",
+    "assets/templates/new-post.md",
+    "assets/images/screenshot-homepage-learn-anything.png",
+    "assets/images/hero_banner_christopher-gower-unsplash.jpg.~tmp",
+    "Pasted image 20231120194154.png",
+    "blog/posts/ra-mat-learn-anything.md",
+    "ra-mat-learn-anything.md",
+    "blog/index.md",
+    "gioi-thieu/cite.md",
+    "material/overrides/main-styles.html",
+    "material/overrides/home.html",
+    "material/overrides/main.html",
+    "material/overrides/cur_main.html",
+    "material/overrides/main_styles.html",
+    "material/overrides/cur_home.html",
+    "kien-thuc/jamstack",
+    "assets/images/learn-anything-logo.png",
+    "assets/images/learn-anything-icon-transparent.png",
+    "assets/templates",
+    "stylesheets/extra.css",
     "index.md",
     "gioi-thieu/index.md",
-    "gioi-thieu/cite.md",
     "gioi-thieu/changes_log.md",
-    "blog/posts/cai-dat-mkdocs-matterial.md",
     "assets/images/Youtube Video Thumbnail.png",
     "assets/images/vnstock_logo_color.png",
     "assets/images/vnstock_home.png",
     "assets/images/vcb-qr-thinhvu.jpg",
     "assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
     "assets/images/thiet-lap-moi-truong-lam-viec-python-voi-gitpod.png",
-    "assets/images/su-dung-jupyter-notebook-tren-github-codespace-lap-trinh-python.png",
-    "assets/images/python_course_4_thinhvu_square.png",
-    "assets/images/obsidian-markdown-comment.png",
-    "assets/images/prompt-yeu-cau-github-copilot-viet-code-trong-visual-studio-code.png",
-    "blog/index.md",
-    "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md.md",
-    "_posts/2017-12-15-table-example.md",
-    "_posts/2023-04-10-Stop Overthinking.md",
-    "_posts/2023-04-16-The forgetting curve.md",
-    "_posts/2023-04-17-Executive Presentation Guide.md",
-    "_posts/2023-05-22-The imperfectionists.md"
+    "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md.md"
   ]
 }

@@ -1,3 +1,15 @@
+---
+date: 2023-11-20
+title: Hướng dẫn sử dụng ngôn ngữ Markdown trong Obsidian
+description: Làm quen nhanh chóng với cú pháp markdown để soạn thảo ghi chú trong Obsidian.
+tags:
+  - obsidian
+categories:
+  - Hướng dẫn
+authors:
+  - thinh-vu
+---
+
 # Hướng dẫn sử dụng Markdown trong Obsidian
 
 !!! abstract "Obsidian markdown"

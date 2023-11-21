@@ -7,8 +7,8 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github
-  logo: assets/images/knowledge.png
-  favicon: assets/images/knowledge.png
+  logo: assets/images/learn-anything-icon-transparent.png
+  favicon: assets/images/learn-anything-icon-transparent.png
   font:
     text: Plus Jakarta Sans
     code: Roboto Mono
@@ -53,7 +53,7 @@ theme:
   # language: en
 extra_css:
   - stylesheets/extra.css
-edit_uri: edit/main/docs/docs                 
+edit_uri: edit/main/docs                 
 plugins:
   - glightbox
   # - search
@@ -62,7 +62,12 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - social: # display a preview on social for links
       # cards_layout: default 
-  # - meta # blog metadata
+      cards_layout_options:
+        background_color: "#002E5D"
+        font_family: "Plus Jakarta Sans"
+        logo: assets/images/learn-anything-logo.png
+  # - material/meta:
+  #     enabled: true # blog metadata
   - blog:
       enabled: true
       blog_toc: true
@@ -107,7 +112,7 @@ markdown_extensions:
   - toc:
       permalink: true
       title: Mục lục
-      permalink_title: Anchor link to this section for reference
+      permalink_title: Nội dung chính
       toc_depth: 3
   # admonition
   - admonition
@@ -208,7 +213,8 @@ nav:
     # - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
   # - Prompt Engineering: kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md
   - Khóa học: khoa-hoc/hoc-tap-cung-learn-anything.md
-  # - Blog: blog/index.md
+  # - Blog: 
+    # - Home: blog/index.md 
   # - Python:
   # - Data:
   # - Công nghệ:

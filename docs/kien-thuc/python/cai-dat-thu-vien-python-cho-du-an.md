@@ -1,3 +1,15 @@
+---
+date: 2023-11-20
+title: Hướng dẫn cách cài đặt thư viện Python
+description: Hiểu cách cài đặt thư viện Python cho dự án của bạn.
+tags:
+  - python
+categories:
+  - Hướng dẫn
+authors:
+  - thinh-vu
+---
+
 # Cài đặt các gói thư viện Python cần thiết
 
 !!! abstract "Cài đặt thư viện Python với pip"

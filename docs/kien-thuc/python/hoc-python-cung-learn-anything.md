@@ -1,3 +1,15 @@
+---
+date: 2023-11-20
+title: Học Python dễ hiểu cùng LEarn Anything
+description: Làm quen nhanh chóng với Python qua những chia sẻ dễ hiểu và thực tế.
+tags:
+  - python
+categories:
+  - Hướng dẫn
+authors:
+  - thinh-vu
+---
+
 # Học python dễ hiểu cùng LEarn Anything
 
 ## Python là gì?

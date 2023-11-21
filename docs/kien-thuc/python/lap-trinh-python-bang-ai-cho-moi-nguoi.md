@@ -1,3 +1,16 @@
+---
+date: 2023-11-20
+title: Hướng dẫn sử dụng AI trong lập trình Python
+description: Làm quen với các ví dụ minh họa thực tế sử dụng AI trong lập trình Python
+tags:
+  - python
+  - AI
+categories:
+  - Hướng dẫn
+authors:
+  - thinh-vu
+---
+
 # Lập trình Python với AI cho mọi người
 
 !!! abstract
