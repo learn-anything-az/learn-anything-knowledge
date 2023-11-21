@@ -1,9 +1,9 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "_posts",
+  "newFileFolderPath": "blog/posts",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "attachmentFolderPath": "assets/images",
   "alwaysUpdateLinks": true
 }

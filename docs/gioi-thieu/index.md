@@ -3,6 +3,27 @@
 !!! abstract "LEarn Anything"
     Chuyên trang Kiến thức của dự án LEarn Anything nhằm cung cấp các nội dung đào tạo hữu ích được cấu trúc và trình bày chặt chẽ giúp bạn đọc có thể học tập những kỹ năng, nội dung được chia sẻ một cách dễ dàng.
 
+## Đăng ký theo dõi
+Để theo dõi những nội dung được cập nhật mới nhất của LEarn Anything, bạn có thể để lại email để nhận thông báo qua Substack nhé.
+
+<div id="custom-substack-embed"></div>
+<script>
+  window.CustomSubstackWidget = {
+    substackUrl: "learnanything.substack.com",
+    placeholder: "nhập-email@gmail.com",
+    buttonText: "Đăng ký",
+    theme: "custom",
+    colors: {
+      primary: "#002E5D",
+      input: "#000000",
+      email: "#00FF84",
+      text: "#FFD700",
+    }
+    // Go to substackapi.com to unlock custom redirect
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
+
 ## Sử dụng trang tài liệu tối ưu
 
 Dưới đây là các gợi ý để bạn sử dụng tài nguyên được chia sẻ một cách tối ưu:

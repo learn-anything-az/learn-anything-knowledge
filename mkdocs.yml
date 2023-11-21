@@ -197,6 +197,8 @@ nav:
   - Trang chủ: index.md
   - Giới thiệu: 
     - Bắt đầu: gioi-thieu/index.md
+    - Đóng góp: gioi-thieu/dong-gop-phat-trien-learn-anything.md
+    - Tiêu chuẩn nội dung: gioi-thieu/tieu-chuan-noi-dung-dong-gop.md
     # - Lịch sử cập nhật: gioi-thieu/changes_log.md
     - Trích dẫn: gioi-thieu/cite.md
   - Obsidian: 
