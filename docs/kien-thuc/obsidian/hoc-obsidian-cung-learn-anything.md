@@ -17,7 +17,28 @@ authors:
 
 ![Trang chủ của ứng dụng Obsidian](../../assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png)
 
+## Lộ trình làm chủ Obsidian
 Để có một cái nhìn tổng quan về lộ trình học và làm chủ ứng dụng Obsidian một cách có hệ thống, bạn có thể tham khảo lộ trình gợi ý sau.
+
+```mermaid
+	graph TD;
+		subgraph "Khởi động"
+	    A[Cài Đặt Ban Đầu] --> B[Soạn Thảo Ghi Chú Đầu Tiên];
+	    end
+	    subgraph "Khám phá"
+	    B --> C[Hiểu Cách Hoạt Động Của Obsidian];
+	    end
+	    subgraph "Chinh phục"
+	    C --> D[Trang Bị Các Kỹ Năng Nâng Cao];
+	    C --> E[Tổ Chức Hệ Thống Thông Tin];
+	    end
+	    subgraph "Đam mê"
+	    D --> F[Khám Phá Thế Giới Community Plugin];
+	    E --> F;
+	    F --> G[Chia sẻ & Xuất bản];
+	    end
+```
+Hoặc chi tiết hơn theo đề mục nội dung như sau:
 
 ```md
 Từ 0 đến 1: Soạn thảo ghi chú đầu tiên với Obsidian

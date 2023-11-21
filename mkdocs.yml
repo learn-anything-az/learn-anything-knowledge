@@ -204,7 +204,11 @@ nav:
   - Obsidian: 
     - Giới thiệu: kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md
     - Cài đặt: kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md
-    - Obsidian markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
+    - Đồng bộ dữ liệu: kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md
+    - Soạn thảo ghi chú markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
+    - Cấu trúc Obsidian Vault: kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md
+    - Sử dụng Plugin: kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md
+    - Xuất bản nội dung: kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md
   - Python: 
     - Giới thiệu: kien-thuc/python/hoc-python-cung-learn-anything.md
     - Thiết lập môi trường Python: kien-thuc/python/thiet-lap-moi-truong-python.md

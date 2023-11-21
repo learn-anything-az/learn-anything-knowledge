@@ -4,6 +4,7 @@ title: Hướng dẫn sử dụng ngôn ngữ Markdown trong Obsidian
 description: Làm quen nhanh chóng với cú pháp markdown để soạn thảo ghi chú trong Obsidian.
 tags:
   - obsidian
+  - sử dụng hàng ngày
 categories:
   - Hướng dẫn
 authors:
@@ -12,10 +13,12 @@ authors:
 
 # Hướng dẫn sử dụng Markdown trong Obsidian
 
-!!! abstract "Obsidian markdown"
+!!! tip "Obsidian markdown"
 	Obsidian sử dụng Markdown là cú pháp định dạng các ghi chú trong ứng dụng. Tuy nhiên tính năng thú vị nhất của Obsidian không phải là soạn thảo văn bản mà là quản lý cơ sở tri thức của bạn được liên kết chặt chẽ thông qua các ghi chú.
 
-## Markdown phổ thông
+## Markdown thông dụng
+!!! abstract "Lưu ý"
+	Các cú pháp markdown trình bày trong mục này hoạt động với hầu hết các kiểu markdown xuất hiện trên thị trường hiện nay.
 
 ### Văn bản
 
@@ -196,6 +199,9 @@ Bạn có thể sử dụng markdown để chèn liên kết bất kỳ đến b
 Trả về kết quả là: [Truy cập khóa học](https://learn-anything.vn/course/phan-tich-du-lieu-voi-python-khoa-4/)
 
 ## Markdown Obsidian
+
+!!! abstract "Lưu ý"
+	Các cú pháp markdown trình bày trong mục này hầu hết chỉ hoạt động và hiển thị đúng trong Obsidian mà không tương thích với các kiểu markdown khác.
 
 ### Backlink - Liên kết nội bộ
 
