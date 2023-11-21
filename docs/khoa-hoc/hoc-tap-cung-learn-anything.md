@@ -3,7 +3,7 @@ date: 2023-11-21
 title: Danh mục các khóa học tại LEarn Anything
 description: Các khóa học hiện đang triển khai.
 tags:
-  - example
+  - khóa học
 categories:
   - danh mục
 authors:

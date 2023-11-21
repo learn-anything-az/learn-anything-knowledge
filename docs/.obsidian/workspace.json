@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+                "file": "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
                 "mode": "source",
                 "source": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+                "file": "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+                "file": "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md"
+                "file": "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md"
               }
             }
           }
@@ -174,15 +174,15 @@
   },
   "active": "44d88177dd45e27d",
   "lastOpenFiles": [
-    "kien-thuc/python/thiet-lap-moi-truong-python.md",
+    "khoa-hoc/hoc-tap-cung-learn-anything.md",
+    "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+    "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md",
     "kien-thuc/python/python-trong-phan-tich-tai-chinh.md",
     "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
     "kien-thuc/python/hoc-python-cung-learn-anything.md",
-    "khoa-hoc/hoc-tap-cung-learn-anything.md",
-    "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
