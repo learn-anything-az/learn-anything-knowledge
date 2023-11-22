@@ -167,10 +167,10 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra:
-  analytics: # Sử dụng GTM là công cụ quản lý các thẻ theo dõi trên web
-    provider: google
-    property: GTM-MCVBKHK6
-    provider: custom
+  # analytics: # Sử dụng GTM là công cụ quản lý các thẻ theo dõi trên web
+  #   provider: google
+  #   property: GTM-MCVBKHK6
+  #   provider: custom
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@learn_anything_az?sub_confirmation=1

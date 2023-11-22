@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "06ced8dee2250d29",
-        "type": "tabs",
+        "id": "f470312af808a2cf",
+        "type": "split",
         "children": [
           {
-            "id": "91839dbde4430e75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
-                "mode": "source",
-                "source": true
+            "id": "06ced8dee2250d29",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "91839dbde4430e75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "feee68ec019c71e6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "864c4df566e3eea9",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
+                "file": "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
+                "file": "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md"
+                "file": "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md"
               }
             }
           },
@@ -157,6 +178,8 @@
   },
   "active": "91839dbde4430e75",
   "lastOpenFiles": [
+    "gioi-thieu/dinh-huong-phat-trien-noi-dung.md",
+    "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
     "gioi-thieu/tieu-chuan-noi-dung-dong-gop.md",
     "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
@@ -184,7 +207,6 @@
     "blog/posts/cai-dat-mkdocs-matterial.md",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
-    "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
     "assets/templates/Photo layout.md",
     "khoa-hoc/hoc-tap-cung-learn-anything.md",
     "assets/templates/new-post.md",
@@ -201,7 +223,6 @@
     "kien-thuc/tu-duy",
     "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
-    "kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md",
-    "kien-thuc/python/python-trong-phan-tich-tai-chinh.md"
+    "kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md"
   ]
 }
