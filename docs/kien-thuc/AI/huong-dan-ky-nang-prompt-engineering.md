@@ -1,1 +1,0 @@
-# Kiến thức Prompt Engineering khi làm việc với AI
