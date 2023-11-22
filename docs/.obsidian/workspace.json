@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
+                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
+                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
+                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md"
+                "file": "gioi-thieu/dong-gop-phat-trien-learn-anything.md"
               }
             }
           },
@@ -157,10 +157,11 @@
   },
   "active": "91839dbde4430e75",
   "lastOpenFiles": [
+    "gioi-thieu/tieu-chuan-noi-dung-dong-gop.md",
+    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md",
     "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
-    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
     "kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
@@ -182,7 +183,6 @@
     "kien-thuc/obsidian/ca-nhan-hoa-obsidian-cho-rieng-ban.md",
     "blog/posts/cai-dat-mkdocs-matterial.md",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
-    "gioi-thieu/tieu-chuan-noi-dung-dong-gop.md",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
     "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
     "assets/templates/Photo layout.md",

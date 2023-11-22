@@ -20,7 +20,7 @@ readtime: 10
 
 ### Gửi file zip nội dung bài viết
 
-Nếu bạn ưa thích sự đơn giản thay vì phải biết cách sử dụng quá nhiều công cụ mới thì viết bài với định dạng markdown là lựa chọn không tồi. Bạn có thể tải file zip chứa cấu trúc thư mục mẫu [tại đây](assets/post-folder-template.zip) về giải nén, viết bài và nén file định dạng zip để chia sẻ.
+Nếu bạn ưa thích sự đơn giản thay vì phải biết cách sử dụng quá nhiều công cụ mới thì viết bài với định dạng markdown là lựa chọn không tồi. Bạn có thể tải file zip chứa cấu trúc thư mục mẫu [tại đây](https://github.com/thinh-vu/learn-anything-knowledge/raw/main/docs/assets/post-folder-template.zip) về giải nén, viết bài và nén file định dạng zip để chia sẻ.
 
 Trong thư mục mẫu này chứa cấu trúc thư mục rỗng `/assets/images` giống như cấu trúc thư mục file đính kèm của website để bạn lưu file đính kèm vào. Như vậy khi bạn gửi bài chia sẻ thì nội dung markdown có thể được sử dụng ngay vì có chung cấu trúc liên kết tới file đính kèm khi chia sẻ lên web.
 
