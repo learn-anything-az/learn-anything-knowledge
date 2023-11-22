@@ -26,7 +26,11 @@ plugins:
 	- https://timvink.nl/#start-blog-entries-overview
 
 ## Cài đặt theo dõi
-- Google Tag Manager:
-	- Trong `_config.yml`
-	- Trong `docs/material/overrides/main.html` thay đổi chính xác mã theo dõi đã điền trong file `_config.yaml`
-- 
+### Google Tag Manager:
+![](../../assets/images/ma-theo-doi-google-tag-manager.png)
+- Copy 2 đoạn mã cài đặt từ trang Google Tag Manager và chèn vào các vị trí sau
+	- Đoạn mã cho thẻ `<head>` dán vào `docs\material\overrides\partials\integrations\analytics\custom.html`
+	- Đoạn mã cho `<body>` dán vào `docs\material\overrides\main.html`
+~~- Trong `_config.yml`
+	- Trong `docs/material/overrides/main.html` thay đổi chính xác mã theo dõi đã điền trong file `_config.yaml`~~
+## 
