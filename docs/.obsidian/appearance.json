@@ -2,7 +2,7 @@
   "accentColor": "#008c9e",
   "baseFontSize": 20,
   "cssTheme": "Minimal",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "obsidian_theme_config"

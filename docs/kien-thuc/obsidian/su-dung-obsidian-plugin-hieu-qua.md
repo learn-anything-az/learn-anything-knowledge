@@ -4,6 +4,7 @@ title: Khám phá và sử dụng Obsidian plugin hay và hiệu quả
 description: Tận dụng sức mạnh của kho plugin đồ sộ trong Obsidian để nâng cao hiệu quả công việc.
 tags:
   - obsidian
+  - kiến thức nâng cao
   - community plugins
   - core plugins
 categories:

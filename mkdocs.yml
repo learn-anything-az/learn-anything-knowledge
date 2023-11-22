@@ -167,10 +167,10 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra:
-  # analytics: # Sử dụng GTM là công cụ quản lý các thẻ theo dõi trên web
+  analytics: # Sử dụng GTM là công cụ quản lý các thẻ theo dõi trên web
+    provider: custom
   #   provider: google
   #   property: GTM-MCVBKHK6
-  #   provider: custom
   social:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@learn_anything_az?sub_confirmation=1
@@ -204,6 +204,7 @@ nav:
   - Obsidian: 
     - Giới thiệu: kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md
     - Cài đặt: kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md
+    - Giao diện Obsidian: kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md
     - Đồng bộ dữ liệu: kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md
     - Soạn thảo ghi chú markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
     - Cấu trúc Obsidian Vault: kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md
