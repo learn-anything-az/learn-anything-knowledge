@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:material/overrides/main.html
 {% extends "base.html" %}
 
 {% block scripts %}
@@ -8,4 +9,16 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
     <!-- End Google Tag Manager (noscript) -->
+=======
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCVBKHK6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+>>>>>>> Stashed changes:site/material/overrides/main.html
 {% endblock %}
