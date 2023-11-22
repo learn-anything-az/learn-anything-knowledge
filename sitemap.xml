@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://learn-anything.vn/assets/templates/Button/</loc>
+         <lastmod>2023-11-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://learn-anything.vn/assets/templates/Photo%20layout/</loc>
          <lastmod>2023-11-22</lastmod>
          <changefreq>daily</changefreq>
@@ -81,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://learn-anything.vn/kien-thuc/cong-nghe/cong-cu-khuyen-dung/</loc>
+         <lastmod>2023-11-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://learn-anything.vn/kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material/</loc>
          <lastmod>2023-11-22</lastmod>
          <changefreq>daily</changefreq>
@@ -92,6 +102,11 @@
     </url>
     <url>
          <loc>https://learn-anything.vn/kien-thuc/obsidian/dong-bo-du-lieu-obsidian/</loc>
+         <lastmod>2023-11-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://learn-anything.vn/kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang/</loc>
          <lastmod>2023-11-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
