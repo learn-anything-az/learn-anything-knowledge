@@ -48,7 +48,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - toc.follow
-    - toc.integrate # tắt để hiện riêng bên thanh bên phải
+    # - toc.integrate # tắt để hiện riêng bên thanh bên phải
     - navigation.top
   # language: en
 extra_css:
@@ -219,8 +219,16 @@ nav:
     - Tài liệu tự học Python: kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md
     - Lý do học Python không thành: kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md
     # - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
-  # - Prompt Engineering: kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md
+  - Phát triển bản thân:
+    - Giới thiệu: kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md
+    - Tư duy:
+      - Nguyên tắc MECE: kien-thuc/phat-trien-ban-than/nguyen-tac-mece.md
+      - Nguyên lý Kim tự tháp Minto: kien-thuc/phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto.md
+    - Tự học:
+      # - Bắt đầu với Tại sao?: kien-thuc/phat-trien-ban-than/bat-dau-voi-cau-hoi-tai-sao.md
+      - Kỹ thuật Feyman: kien-thuc/phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md
   - Khóa học: khoa-hoc/hoc-tap-cung-learn-anything.md
+  # - Prompt Engineering: kien-thuc/AI/huong-dan-ky-nang-prompt-engineering.md
   # - Blog: 
     # - Home: blog/index.md 
   # - Python:

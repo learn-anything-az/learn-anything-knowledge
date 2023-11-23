@@ -42,7 +42,7 @@ Tuy nhiên Google Colab có 1 nhược điểm gây khó chịu không ít đó 
 Google Colab mặc định hiển thị ngôn ngữ tiếng Việt cho tôi nhưng tôi luôn lựa chọn làm việc với phiên bản tiếng Anh cho tiện giao tiếp và tìm kiếm hỗ trợ dễ dàng khi cần. Nếu bạn cũng cần thay đổi ngôn ngữ, hãy tìm lựa chọn này ở menu `Trợ giúp` >> `Xem bằng tiếng Anh`.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/SG17IaxkDV0?si=tfc9P2aC-Ers7kOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/SG17IaxkDV0?si=tfc9P2aC-Ers7kOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Bạn cũng có thể sử dụng cách thay đổi `hl=vi` thành `hl=en` trong địa chỉ của Notebook ở thanh địa chỉ trên trình duyệt. Ví dụ, thay đôỉ `https://colab.research.google.com/drive/1WdRrOmnTI1s-KppcGGkBjBA9ZU_X2LiK?authuser=1&hl=vi`  sang `https://colab.research.google.com/drive/1WdRrOmnTI1s-KppcGGkBjBA9ZU_X2LiK?authuser=1&hl=en` sau đó Enter.
@@ -52,7 +52,7 @@ Bạn cũng có thể sử dụng cách thay đổi `hl=vi` thành `hl=en` t
 Nếu các bạn ưu thích chế độ làm việc Darkmode thì có thể bật nó lên dễ dàng bằng cách: Tìm trên thanh Menu và chọn `Tools` >> `Settings` hoặc click vào hình chiếc bánh răng ở góc phải phía trên của Notebook bên cạnh avatar của bạn để mở mục Cài đặt. Chọn tùy chọn `dark` ở mục Theme và click vào `Save` để lưu cài đặt.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/jFTMBqD48BM?si=0dVN9oNzP6Vo4U2K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/jFTMBqD48BM?si=0dVN9oNzP6Vo4U2K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### Tùy chọn lập trình
@@ -60,7 +60,7 @@ Nếu các bạn ưu thích chế độ làm việc Darkmode thì có thể bậ
 Mở mục cài đặt và chọn Editor, tick chọn hết tất cả các tùy chọn trong mục này. Trong đó đặc biệt là `Show line numbers` giúp bạn hiển thị số thứ tự của dòng code trong 1 code cell và `Show indentation guides` giúp hiển thị căn thụt đầu dòng rất hữu ích, hạn chế xảy ra lỗi định dạng khoảng cách không đúng trong Python.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/xMZAVqwu5Sc?si=NWSKUP4YJamBU_vO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/xMZAVqwu5Sc?si=NWSKUP4YJamBU_vO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ### Thao tác với File & Folder
@@ -76,7 +76,7 @@ Mở mục cài đặt và chọn Editor, tick chọn hết tất cả các tùy
 - `Upload` cho phép bạn duyệt file trên máy tính cá nhân và tải lên file notebook có định dạng `.ipynb`
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/e3tntBqUpwk?si=wBr4H0BG2JImm5ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/e3tntBqUpwk?si=wBr4H0BG2JImm5ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### Lưu Notebook
@@ -133,7 +133,7 @@ Chọn Menu >> View:
 - Run after: Thực thi các code cell kể từ code cell bạn đang chọn về sau
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/I_PR8vGQV8Y?si=WzlxoYAHpCuxEGGK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/I_PR8vGQV8Y?si=WzlxoYAHpCuxEGGK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### Dừng thực thi & khởi động lại
@@ -173,7 +173,7 @@ Trong một số trường hợp tên thư viện của bạn đã ngắn gọn 
 Để chèn 1 code snippet bạn sử dụng tổ hợp phím tắt Ctrl + Alt + P (Control + Option + P trên Mac) hoặc click icon Code Snippet ở thanh công cụ phía bên trái màn hình, hoặc mở từ `Menu > Insert > Code snippets`.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/QfhVarMPV_I?si=jdCgkj7FHnDOvT-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/QfhVarMPV_I?si=jdCgkj7FHnDOvT-l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Để thêm 1 Notebook do bạn soạn thảo chứa các đoạn mã mẫu vào Colab, bạn chỉ cần copy URL của Notebook trên trình duyệt và paste vào mục `Custom snippet notebook URL` trong phần cài đặt Colab.
@@ -236,7 +236,7 @@ jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com
 ```
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/QfhVarMPV_I?si=ooT3uRSrYDPtz5UZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/QfhVarMPV_I?si=ooT3uRSrYDPtz5UZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Nếu bạn muốn mở 1 folder cụ thể khi chạy Google Colab với local runtime, có thể tùy biến câu lệnh ở bước 3 để chạy với Terminal/Command Prompt. Dưới đây, mình muốn Google Colab sẽ làm việc tại folder `D:\OneDrive\Github`
@@ -258,7 +258,7 @@ Một mẹo nhỏ tôi thường xuyên sử dụng đó là gán địa chỉ t
 Để tương tác với file & folder trong Google Drive của bạn trong Google Colab, bạn sẽ cần thực hiện thao tác mount drive. Việc này rất đơn giản, bạn click vào icon Folder và chọn Google Drive icon sau đó 1 đoạn code sẽ được chèn tự động vào Colab, bạn cần thực thi đoạn code này, 1 tab mới được mở ra yêu cầu bạn xác thực quyền truy cập tài khoản > xác thực và copy token key sau đó quay trở lại Colab và paste vào ô yêu cầu nhập liệu của đoạn code mount drive sau đó enter. Do mình đã kết nối Drive nhiều lần gần đây nên video demo dưới đây khi mount drive, Google không bắt mình xác thực quyền truy cập 1 lần nữa.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/Qlfqb2MWxcE?si=siNQriGeQRZPV8zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/Qlfqb2MWxcE?si=siNQriGeQRZPV8zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Với những người sử dụng nhiều tài khoản Google trong cùng 1 trình duyệt như mình, đôi khi xác thực nhầm tài khoản để kết nối khiến các bạn không khỏi bối rối không biết làm sao để thay đổi tài khoản và truy cập các thư mục cần thiết. Đây là đoạn code bạn cần thực thi:
@@ -278,7 +278,7 @@ Trong Google Colab đã có sẵn code snippet để bạn import / export đơn
 Trong nhiều trường hợp, do thao tác nhầm bạn có thể xoá 1 hoặc nhiều code block, thậm chí xoá cả chương nội dung, hẳn bạn sẽ cần 1 thao tác giúp Undo thao tác này. Đôi khi bạn cũng muốn khôi phục 1 phiên bản Notebook cũ hơn và bỏ qua các thay đổi đã thực hiện gần đây. Tính năng Revision history sẽ là cứu cánh cho bạn. Để truy cập tính năng này, tìm `Menu > File > Revision history`. Như vậy, mặc dù không sử dụng Github, bạn vẫn có thể kiểm soát các phiên bản khác nhau của Notebook mình thực hiện với Colab.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="940" height="529" src="https://www.youtube.com/embed/kuQ6Ctsi4-E?si=Dc8hRhgMg4KLrmfm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/kuQ6Ctsi4-E?si=Dc8hRhgMg4KLrmfm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ### Tạo dashboard

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/python/huong-dan-su-dung-google-colab.md",
+                "file": "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md",
                 "mode": "source",
                 "source": true
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "width=\"757\" height=\"426\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/python/huong-dan-su-dung-google-colab.md",
+                "file": "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/python/huong-dan-su-dung-google-colab.md",
+                "file": "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/python/huong-dan-su-dung-google-colab.md"
+                "file": "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,11 +181,27 @@
   },
   "active": "985e8508316eaf5a",
   "lastOpenFiles": [
-    "assets/images/Pasted image 20231123144306.png",
+    "kien-thuc/phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto.md",
+    "kien-thuc/phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md",
+    "kien-thuc/phat-trien-ban-than/bat-dau-voi-cau-hoi-tai-sao.md",
+    "kien-thuc/phat-trien-ban-than/nguyen-tac-mece.md",
+    "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md",
+    "assets/images/golden-circle-vong-tron-vang.jpg",
+    "kien-thuc/phat-trien-ban-than/Untitled",
     "assets/templates/Youtube Video embed.md",
-    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+    "kien-thuc/ky-nang/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md",
+    "kien-thuc/phat-trien-ban-than/phat-trien-ban-than-learn-anything.md",
+    "kien-thuc/phat-trien-ban-than",
+    "kien-thuc/ky-nang/phat-trien-ban-than-learn-anything.md",
+    "kien-thuc/ky-nang/nguyen-ly-kim-tu-thap-minto.md",
     "kien-thuc/python/huong-dan-su-dung-google-colab.md",
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
+    "kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md",
+    "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
+    "kien-thuc/ky-nang/nguyen-tac-mece.md",
+    "kien-thuc/ky-nang",
+    "assets/images/Pasted image 20231123144306.png",
+    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "assets/images/cai-dat-goi-thu-vien-python-voi-pip-tu-command-prompt-windows.png",
     "assets/images/cai-dat-goi-thư-vien-python-voi-pip-tu-jupyter-notebook-visual-studio-code.png",
@@ -197,8 +213,6 @@
     "assets/images/Youtube Video Thumbnail.png",
     "assets/images/vnstock_logo_color.png",
     "assets/images/vnstock_home.png",
-    "assets/images/vcb-qr-thinhvu.jpg",
-    "assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
     "assets/images/logo icon youtube channel.psd",
     "assets/images",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
@@ -210,22 +224,7 @@
     "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/hoc-python-cung-learn-anything.md",
     "kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md",
-    "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
-    "kien-thuc/cong-nghe/cong-cu-khuyen-dung.md",
     "kien-thuc/cong-nghe",
-    "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
-    "kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md",
-    "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
-    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
-    "kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md",
-    "gioi-thieu/dinh-huong-phat-trien-noi-dung.md",
-    "gioi-thieu/tieu-chuan-noi-dung-dong-gop.md",
-    "gioi-thieu/index.md",
-    "assets/post-folder-template/Nội dung của bạn.md",
-    "assets/post-folder-template.zip",
-    "kien-thuc/obsidian/ca-nhan-hoa-obsidian-cho-rieng-ban.md",
-    "assets/post-folder-template/assets/images",
-    "assets/post-folder-template/assets/New folder",
-    "assets/post-folder-template/assets"
+    "assets/post-folder-template.zip"
   ]
 }

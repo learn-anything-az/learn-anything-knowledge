@@ -49,4 +49,4 @@ Các dịch vụ như OneDrive, Google Drive, vv không hỗ trợ đồng bộ 
 
 Dưới đây là video tôi hướng dẫn cụ thể cách thiết lập đồng bộ Folder Sync với Onedrive.
 
-<iframe width="940" height="529" src="https://www.youtube.com/embed/aW5Xn2Y3VfE?si=k9PCfL39RvRIHmmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="914" height="514"src="https://www.youtube.com/embed/aW5Xn2Y3VfE?si=k9PCfL39RvRIHmmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
