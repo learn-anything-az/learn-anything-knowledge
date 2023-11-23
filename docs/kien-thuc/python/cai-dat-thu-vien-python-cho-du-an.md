@@ -12,10 +12,10 @@ authors:
 
 # Cài đặt các gói thư viện Python cần thiết
 
-!!! abstract "Cài đặt thư viện Python với pip"
-	Bản chất của một thư viện Python là đoạn mã python giúp tạo nên các hàm/phương thức giúp bạn thao tác với chương trình Python dễ dàng mà không cần phải viết lại các đoạn mã lặp đi lặp lại.
+!!! abstract "Giới thiệu"
+	Thư viện hay gói phần mềm Python (package) bản chất là các đoạn mã chứa hàm / chức năng trong Python được lập trình sẵn cho phép bạn nạp (import) vào dự án của mình để sử dụng thay vì phải tự lập trình. Để cài đặt các gói thư viện Python, bạn sử dụng công cụ quản lý gói tên là `pip` trong cửa sổ lệnh hoặc ô lệnh trong Jupyter Notebook.
 
-Để cài đặt một gói thư viện Python, bạn sử dụng công cụ quản lý gói `pip` thông qua dòng lệnh trong ứng dụng Terminal (macOS hay Command Prompt trên Windows) hoặc một ô chứa mã Python trên Google Colab/Jupyter Notebook.
+Các gói thư viện Python được lưu trữ trên dịch vụ [PyPI](https://pypi.org/) (Python Package Index) - là kho lưu trữ các phần mềm Python của bên thứ ba. Bạn sẽ cài đặt một gói thư viện Python nếu nó được phân phối qua PyPI với câu lệnh đơn giản `pip install tên_gói_thư_viện_muốn_cài`. Các lựa chọn khác có thể là cài thông qua mã nguồn Github, cài thông qua file tarball (file nén chứa phần mềm Python). Thông thường, để cài một gói thư viện Python, bạn sẽ tham khảo hướng dẫn cài đặt chính thức từ trang thông tin của phần mềm/thư viện đó tại mục nội dung Install.
 ## Sử dụng Jupyter Notebook
 
 > Nếu bạn học phân tích dữ liệu với Python, hầu hết trường hợp bạn sẽ làm việc với Jupyter Notebook (Jupyter Lab hay Google Colab). Đây là cách đơn giản nhất bạn nên sử dụng trong mọi trường hợp.

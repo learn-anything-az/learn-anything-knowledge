@@ -4,18 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "1c17c5d69b5ca8f6",
+        "id": "65e47d6ab533a1f2",
         "type": "tabs",
         "children": [
           {
-            "id": "bdf355fedf74095a",
+            "id": "985e8508316eaf5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
+                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "5298746d844b830a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
+                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
+                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md"
+                "file": "kien-thuc/python/thiet-lap-moi-truong-python.md"
               }
             }
           },
@@ -156,30 +168,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bdf355fedf74095a",
+  "active": "985e8508316eaf5a",
   "lastOpenFiles": [
-    "assets/images/featured-phat-trien-ban-than.png",
-    "assets/images/featured-phat-trien-ban-than (2).png",
-    "assets/images/phat-trien-ban-than.png",
-    "assets/images/obsidian-featured-content.png",
+    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+    "kien-thuc/python/thiet-lap-moi-truong-python.md",
+    "assets/images/cai-dat-goi-thu-vien-python-voi-pip-tu-command-prompt-windows.png",
+    "assets/images/cai-dat-goi-thư-vien-python-voi-pip-tu-jupyter-notebook-visual-studio-code.png",
+    "assets/images/visual_studio_code_tren_windows.png",
+    "assets/Thiết lập môi trường Python.md",
+    "assets/images/Pasted image 20231123134922.png",
+    "assets/images/kaggle_jupyter_notebook_learn-anything.png",
+    "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
+    "assets/images/Youtube Video Thumbnail.png",
+    "assets/images/vnstock_logo_color.png",
+    "assets/images/vnstock_home.png",
+    "assets/images/vcb-qr-thinhvu.jpg",
+    "assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
+    "assets/images/logo icon youtube channel.psd",
+    "assets/images",
+    "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "material/overrides/home.html",
     "material/overrides/test_home.html",
     "material/overrides/backup_home.html",
-    "assets/images/featured-lap-trinh-python-learn-anything.png",
     "khoa-hoc/hoc-tap-cung-learn-anything.md",
     "assets/templates/Button.md",
     "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
-    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
-    "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/python/hoc-python-cung-learn-anything.md",
-    "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
-    "assets/images/chon-phien-ban-obsidian-go-v3-moi-nhat-de-tai-ve.png",
-    "assets/images/chon-tai-file-zip-obsidian-go-v3.png",
     "kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md",
-    "assets/images/obsidian-text-editor-zone-soan-thao-van-ban-tren-mobile.png",
-    "assets/images/obsidian-sidebar-ben-trai-mobile.png",
-    "assets/images/giao-dien-obsidian-thanh-sidebar-phai-mobile.png",
-    "assets/images/bo-cuc-obsidian-modbile-tren-mobile.png",
     "kien-thuc/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
     "kien-thuc/cong-nghe/cong-cu-khuyen-dung.md",
     "kien-thuc/cong-nghe",
@@ -190,17 +205,13 @@
     "kien-thuc/obsidian/hoc-obsidian-cung-learn-anything.md",
     "kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md",
     "gioi-thieu/dinh-huong-phat-trien-noi-dung.md",
-    "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
     "gioi-thieu/tieu-chuan-noi-dung-dong-gop.md",
     "gioi-thieu/index.md",
     "assets/post-folder-template/Nội dung của bạn.md",
     "assets/post-folder-template.zip",
-    "assets/images/logo icon youtube channel.psd",
-    "assets/images",
     "kien-thuc/obsidian/ca-nhan-hoa-obsidian-cho-rieng-ban.md",
     "blog/posts/cai-dat-mkdocs-matterial.md",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
-    "assets/templates/Photo layout.md",
     "assets/post-folder-template/assets/images",
     "assets/post-folder-template/assets/New folder",
     "assets/post-folder-template/assets"
