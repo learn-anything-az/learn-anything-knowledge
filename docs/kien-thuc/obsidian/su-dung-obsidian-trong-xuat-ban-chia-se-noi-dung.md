@@ -24,8 +24,8 @@ authors:
 ### Obsidian với Jekyll
 Tham khảo hướng dẫn chi tiết về Jekyll và các bước cấu hình trang blog đẹp, hiện đại với Jekyll YAT theme từ đây: 
 
-- [Cài đặt Jekyll](kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md)
-- [Thiết lập Jekyll YAT theme](kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md)
+- [Cài đặt Jekyll](https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg/)
+- [Thiết lập Jekyll YAT theme](https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/)
 
 Ngoài ra, bạn  có thể lựa chọn theme tùy ý cho Jekyll tại [Jamstack theme](https://jamstackthemes.dev/theme/#ssg=jekyll) và thực hiện tùy biến theo sở thích khi đã có kinh nghiệm cơ bản thiết lập một trang web với Jekyll sử dụng Github Pages là nơi lưu trữ (host) trang web miễn phí.
 

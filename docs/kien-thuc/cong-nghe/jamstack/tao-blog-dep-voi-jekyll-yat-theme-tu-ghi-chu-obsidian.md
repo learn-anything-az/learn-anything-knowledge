@@ -15,7 +15,7 @@ authors:
 ---
 
 ## Cài đặt Jekyll
-Xem chi tiết tại [Cài đặt công cụ tạo trang tĩnh Jekyll](cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md)
+Xem chi tiết tại [Cài đặt công cụ tạo trang tĩnh Jekyll](https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg/)
 
 ## YAT theme
 
