@@ -1,6 +1,6 @@
 ---
 date: 2023-12-02
-title: cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg
+title: Hướng dẫn cách cài đặt Jekyll làm công cụ tạo trang web tĩnh (SSG)
 aliases:
   - Hướng dẫn cách cài đặt Jekyll làm công cụ tạo trang web tĩnh (SSG)
 description: description goes here
