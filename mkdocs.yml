@@ -219,6 +219,13 @@ nav:
     - Tài liệu tự học Python: kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md
     - Lý do học Python không thành: kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md
     # - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
+  - Công nghệ:
+    - Git & quản lý phiên bản:
+      - Git và Github: kien-thuc/cong-nghe/git-va-github-tim-su-dung-cong-cu-quan-ly-phien-ban-trong-lap-trinh.md
+    - Jamstack: 
+      - Jamstack là gì: kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md
+      - Github Pages: kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md
+      - Tạo trang web với Jekyll: kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md
   - Phát triển bản thân:
     - Giới thiệu: kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md
     - Tư duy:

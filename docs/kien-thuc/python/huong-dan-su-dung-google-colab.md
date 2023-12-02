@@ -1,6 +1,7 @@
 ---
 date: 2023-11-23
 title: Hướng dẫn sử dụng Google Colab toàn tập
+alias: Hướng dẫn sử dụng Google Colab toàn tập
 description: Học cách sử dụng Google Colab hiệu quả thông qua hướng dẫn chi tiết và dễ hiểu.
 tags:
   - code editor

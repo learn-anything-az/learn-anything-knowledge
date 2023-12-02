@@ -1,6 +1,7 @@
 ---
 date: {{date}}
 title: {{title}}
+alias: {{title}}
 description: description goes here
 tags:
   - example
