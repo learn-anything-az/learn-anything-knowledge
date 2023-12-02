@@ -33,18 +33,19 @@ Bạn cũng có thể truy cập trang dự án của giao diện nguyên bản 
 - Nên sử dụng local mặc dù mất công thiết lập môi trường (1 lần), về sau chạy lệnh build nhanh chóng và cho phép preview trang để dễ dàng debug. Sau khi thành công hãy push vào 1 nhánh riêng và đẩy lên github page branch để hiển thị.
 - Github page chạy mất thời gian, không thể preview, lỗi thì khó debug hơn hoặc reverse lại phiên bản cũ.
 
-## Tính năng
-### Viết bài
+### Tính năng
+#### Viết bài
 - Diagram: Có thể sử dụng [PlantUML](https://plantuml.com/guide) hoặc Mermaid
 - Table: Hỗ trợ nhiều cài đặt như gộp ô, headless
 - Hỗ trợ đa dạng các cú pháp markdown cơ bản lẫn nâng cao.
 
-
-### Giao diện
+#### Giao diện
 - Đặt properties `sidebar: []` để ẩn TOC bên phải
 - Cấu hình sidebar tại file `article_menu` tại đường dẫn `jekyll-theme-yat\_includes\sidebar`
 - Thay đổi tên `Dark/Light` thành `Tối/Sáng` tại file `jekyll-theme-yat/_includes/extensions/theme-toggle.html`
 - Thay đổi màu sắc chủ đạo cho theme trong `_config.yml`
 
-### Phân tích
+#### Theo dõi & phân tích website
 - Sửa đổi đoạn mã theo dõi GA thành GTM (nếu cần) tại file `jekyll-theme-yat/_includes/extensions/google-analytics.html`
+
+## Thiết lập tên miền riêng

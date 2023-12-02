@@ -22,8 +22,12 @@ authors:
 - Tham khảo [Material for MKDocs ](https://squidfunk.github.io/mkdocs-material/)
 
 ### Obsidian với Jekyll
-- Tham khảo [Jekyll](https://jekyllrb.com/)
-- Lựa chọn theme cho Jekyll tại [Jamstack theme](https://jamstackthemes.dev/theme/#ssg=jekyll)
+Tham khảo hướng dẫn chi tiết về Jekyll và các bước cấu hình trang blog đẹp, hiện đại với Jekyll YAT theme từ đây: 
+
+- [Cài đặt Jekyll](kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md)
+- [Thiết lập Jekyll YAT theme](kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md)
+
+Ngoài ra, bạn  có thể lựa chọn theme tùy ý cho Jekyll tại [Jamstack theme](https://jamstackthemes.dev/theme/#ssg=jekyll) và thực hiện tùy biến theo sở thích khi đã có kinh nghiệm cơ bản thiết lập một trang web với Jekyll sử dụng Github Pages là nơi lưu trữ (host) trang web miễn phí.
 
 ### Obsidian với Gatsby
 - Tham khảo [Gatsby](https://www.gatsbyjs.com/)

@@ -44,43 +44,19 @@
             }
           },
           {
-            "id": "7c8ff042f7a21696",
+            "id": "04db6071123f1730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
+                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "0f0b05fa49881ff1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2b354e212aa3ad89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
+                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
+                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md"
+                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md"
               }
             }
           },
@@ -216,11 +192,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2564aa0715b25aed",
+  "active": "04db6071123f1730",
   "lastOpenFiles": [
-    "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
-    "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
+    "kien-thuc/python/thiet-lap-moi-truong-python.md",
+    "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
     "kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md",
+    "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
+    "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
+    "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
+    "kien-thuc/cong-nghe/jamstack/thiet-lap-github-pages-chia-se-trang-web.md",
+    "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
     "assets/templates/Social link.md",
     "assets/templates/Youtube Video embed.md",
     "assets/post-folder-template/Nội dung của bạn.md",
@@ -241,23 +222,18 @@
     "assets/images/logo icon youtube channel.psd",
     "assets/images",
     "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
-    "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
-    "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
     "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
-    "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
     "kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
     "kien-thuc/obsidian/ca-nhan-hoa-obsidian-cho-rieng-ban.md",
     "kien-thuc/cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung.md",
-    "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/cong-nghe/git-va-github-tim-su-dung-cong-cu-quan-ly-phien-ban-trong-lap-trinh.md",
     "blog/posts/().md",
     "kien-thuc/lib/Google Colab Premium.md",
     "kien-thuc/python/huong-dan-su-dung-google-colab.md",
     "assets/templates/new-post.md",
     "kien-thuc/lib",
-    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
     "kien-thuc/phat-trien-ban-than/Untitled",
     "kien-thuc/phat-trien-ban-than",
     "kien-thuc/ky-nang",
