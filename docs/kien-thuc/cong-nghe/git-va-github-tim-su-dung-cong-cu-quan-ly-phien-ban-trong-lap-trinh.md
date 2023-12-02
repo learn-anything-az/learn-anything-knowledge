@@ -93,11 +93,15 @@ Mở ứng dụng Github Desktop, chọn `Clone repository` sau đó nhập URL 
 
 Để theo dõi một thư mục bất kỳ, bạn thực hiện như B1 như phần Clone repo ở trên, chọn `Add > Add existing repository` và duyệt file browser đến thư mục bạn chọn.
 
-#### Commit để upload thư mục mã nguồn
+#### Commit để ghi nhận thay đổi
 
-Từ giao diện Github Desktop, giả sử bạn đang mở repo cần cập nhật thay đổi. Ở đây, bạn chỉ cần nhập ghi chú ngắn gọn cho lần cập nhật và chọn nút Commit như hình.
+Từ giao diện Github Desktop, giả sử bạn đang mở repo cần cập nhật thay đổi. Ở đây, bạn chỉ cần nhập ghi chú ngắn gọn cho lần cập nhật và chọn nút Commit như hình. Các thay đổi của bạn sẽ được lưu trong giây lát.
 
 ![](../../assets/images/commit-thay-doi-cua-repo-len-github.png)
+
+#### Push thay đổi lên Github
+
+Sau khi thực hiện bước commit, bạn còn một bước cuối cùng nữa để đẩy (tức push hay cũng chính là upload) mã nguồn lên Github. 
 
 ### Git CLI
 > Để tìm hiểu đầy đủ nhất về Git, bạn có thể tham khảo tài liệu chính thức [tại đây](https://git-scm.com/docs). Dưới đây là một số hướng dẫn đơn giản mà bạn thường xuyên sử dụng nhất.
