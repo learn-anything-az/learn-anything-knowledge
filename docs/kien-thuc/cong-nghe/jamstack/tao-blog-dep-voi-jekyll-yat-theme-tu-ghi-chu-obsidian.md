@@ -15,7 +15,7 @@ authors:
 ---
 
 ## Cài đặt Jekyll
-Xem chi tiết tại [Cài đặt công cụ tạo trang tĩnh Jekyll](kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md)
+Xem chi tiết tại [Cài đặt công cụ tạo trang tĩnh Jekyll](cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md)
 
 ## YAT theme
 
@@ -26,7 +26,7 @@ Bạn cũng có thể truy cập trang dự án của giao diện nguyên bản 
 ### Thiết lập
 - File `Gemfile` chứa thông tin thiết lập về theme được sử dụng, các gói phụ thuộc cần được chỉ rõ. Trong hướng dẫn ban đầu tác giả nêu không đầy đủ do đó khi sử dụng sẽ gặp lỗi khi thiết lập và người dùng không có kinh nghiệm sẽ loay hoay.
 - File `_config.yml` chứa tất cả các cài đặt cho site. Uncomment và thay thế các giá trị mặc định để cập nhật.
-- Có thể cần chạy `bundle install` để cài đặt các gói phụ thuộc
+- Chạy lệnh `bundle install` để cài đặt các gói phụ thuộc
 - Cuối cùng, chạy lệnh `bundle exec jekyll serve` để chạy local server và xem trước nội dung để có thể tùy biến trang web.
 - Để build (generate site) tại môi trường local, chạy lệnh `bundle exec jekyll build` từ thư mục dự án. Khi chạy lệnh buid, các thay đổi tự động được gán cho nhánh `gh-` 
 ### Build local hay github action và github page?
