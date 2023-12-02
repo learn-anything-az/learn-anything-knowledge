@@ -62,17 +62,31 @@ Các bạn có thể sẽ bị nhầm lẫn giữa Git và Github khi mới ti�
 ### Github
 #### Đăng ký tài khoản
 
+Truy cập [github.com](https://github.com/) chọn Signup để đăng ký tài khoản.
+
 #### Tạo một repo
+Để tạo 1 repo Github, bạn truy cập trang tài khoản của mình từ mục Repository và chọn nút `New`.
+
+![](../../assets/images/tao-repo-github-tren-website.png)
 
 #### Sao chép (fork) một repo
+Khi xem một Github repo bất kỳ, bạn có thể sao chép về tài khoản của mình và phát triển tiếp/sửa đổi mã nguồn với tính năng folk. Trong ví dụ này, tôi folk một repo có tên `jekyll-theme-yat` về chỉnh sửa để tạo ra giao diện blog cho website trên Github Pages.
+
+![](../../assets/images/fork-github-repo.png)
 
 #### Tạo một nhánh (branch) cho repo
 Trong một repo, bạn có thể tạo nhiều nhánh khác nhau, ví dụ `main` hoặc master chứa mã nguồn ổn định còn `beta` chứa mã nguồn tạm thời trong quá trình phát triển.
 
 #### Xem lịch sử phiên bản
 
-#### Lần đầu thực hiện Pull Request
+Để xem chi tiết những thay đổi trên file và thư mục của repo, bạn chọn phần thông tin số lần commit như hình dưới đây và duyệt xem chi tiết từng file/thư mục trong repo. Các phần thay đổi thêm mới được hiển thị màu xanh, xóa đi thì là màu đỏ khi xem file mã nguồn.
 
+Click từng hình để mở toàn màn hình.
+
+=== "B1. Duyệt xem thay đổi file/thư mục"
+	![](../../assets/images/xem-lich-su-thay-doi-cua-repo-github.png)
+=== "B2. Chọn xem repo tại mốc thời gian thay đổi"
+	![](../../assets/images/xem-thay-doi-trong-ma-nguon-github.png)
 
 ### Github Desktop
 #### Cài đặt Github Desktop
@@ -102,6 +116,8 @@ Từ giao diện Github Desktop, giả sử bạn đang mở repo cần cập nh
 #### Push thay đổi lên Github
 
 Sau khi thực hiện bước commit, bạn còn một bước cuối cùng nữa để đẩy (tức push hay cũng chính là upload) mã nguồn lên Github. 
+
+![](../../assets/images/day-ma-nguon-len-github.png)
 
 ### Git CLI
 > Để tìm hiểu đầy đủ nhất về Git, bạn có thể tham khảo tài liệu chính thức [tại đây](https://git-scm.com/docs). Dưới đây là một số hướng dẫn đơn giản mà bạn thường xuyên sử dụng nhất.

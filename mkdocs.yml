@@ -220,6 +220,8 @@ nav:
     - Lý do học Python không thành: kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md
     # - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
   - Công nghệ:
+    - Soạn thảo văn bản:
+      - Visual Studio Code: kien-thuc/cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung.md
     - Git & quản lý phiên bản:
       - Git và Github: kien-thuc/cong-nghe/git-va-github-tim-su-dung-cong-cu-quan-ly-phien-ban-trong-lap-trinh.md
     - Jamstack: 
