@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
+                "file": "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
                 "mode": "source",
                 "source": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
+                "file": "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
+                "file": "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md"
+                "file": "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md"
               }
             }
           },
@@ -218,6 +218,7 @@
   },
   "active": "2564aa0715b25aed",
   "lastOpenFiles": [
+    "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
     "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
     "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
     "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
@@ -240,7 +241,6 @@
     "assets/images/chạy-terminal-command-prompt-tu-windows-explorer.png",
     "assets/images/git-clone-succeed-learn-anyting-knowledge-terminal.png",
     "kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md",
-    "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
     "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
     "blog/posts/().md",
     "kien-thuc/lib/Google Colab Premium.md",
