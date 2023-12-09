@@ -23,8 +23,12 @@
             "id": "2564aa0715b25aed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md"
+              }
             }
           },
           {
@@ -162,9 +170,16 @@
   },
   "active": "2564aa0715b25aed",
   "lastOpenFiles": [
+    "assets/images/clone-github-repo-toan-bo-ma-nguon-de-chinh-sua.png",
+    "assets/images/thiet-lap-template-note-obsidian.png",
+    "assets/images/thiet-lap-file-link-trong-obsidian.png",
+    "assets/images/cau-hinh-dns-cho-trang-github-page.png",
+    "assets/images/cau-hinh-ten-mien-rieng-voi-Github-Page.png",
+    "assets/images/thiet-lap-ten-mien-rieng-cho-trang-github-page.png",
+    "assets/images/cau-hinh-trang-blog-voi-jekyll-yat-theme-obsidian-markdown.png",
+    "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
-    "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
     "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
     "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
     "kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md",
@@ -181,12 +196,6 @@
     "assets/images/xem-thay-doi-trong-ma-nguon-github.png",
     "assets/images/xem-lich-su-thay-doi-cua-repo-github.png",
     "assets/images/vnstock_logo_color.png",
-    "assets/images/visual_studio_code_tren_windows.png",
-    "assets/images/vnstock_home.png",
-    "assets/images/trang-chu-ung-dung-ghi-chu-pkm-obsidian.png",
-    "assets/images/vcb-qr-thinhvu.jpg",
-    "assets/images/thiet-lap-moi-truong-lam-viec-python-voi-gitpod.png",
-    "assets/images/terminal_windows_10_cd_doi_dia_chi_thu_muc.png",
     "assets/images/logo icon youtube channel.psd",
     "assets/images",
     "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
@@ -200,7 +209,6 @@
     "blog/posts/().md",
     "kien-thuc/lib/Google Colab Premium.md",
     "kien-thuc/python/huong-dan-su-dung-google-colab.md",
-    "assets/templates/new-post.md",
     "kien-thuc/lib",
     "kien-thuc/phat-trien-ban-than/Untitled",
     "kien-thuc/phat-trien-ban-than",
