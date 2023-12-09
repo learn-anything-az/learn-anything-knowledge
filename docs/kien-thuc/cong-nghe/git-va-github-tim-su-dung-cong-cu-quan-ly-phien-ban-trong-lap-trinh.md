@@ -6,8 +6,7 @@ description: Giới thiệu sơ lược và hướng dẫn sử dụng công c�
 tags:
   - git
   - github
-  - version
-  - control
+  - version control
 categories:
   - Hướng dẫn
   - Kiến thức

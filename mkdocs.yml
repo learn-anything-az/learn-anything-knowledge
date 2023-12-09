@@ -226,7 +226,7 @@ nav:
       - Git và Github: kien-thuc/cong-nghe/git-va-github-tim-su-dung-cong-cu-quan-ly-phien-ban-trong-lap-trinh.md
     - Jamstack: 
       - Jamstack là gì: kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md
-      - Github Pages: kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md
+      - Giới thiệu Github Pages: kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md
       - Công cụ tạo trang tĩnh Jekyll: kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md
       - Tạo blog đẹp với Jekyll YAT theme: kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md
   - Phát triển bản thân:
