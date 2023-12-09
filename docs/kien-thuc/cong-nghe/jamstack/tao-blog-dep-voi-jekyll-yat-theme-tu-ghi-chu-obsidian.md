@@ -13,6 +13,10 @@ categories:
 authors:
   - thinh-vu
 ---
+
+<div style="display: flex; justify-content: center;">
+<iframe width="914" height="514"src="https://www.youtube.com/embed/Q57Rv-LG1FQ?si=SGKIDxFM1QMBEpzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ## Tổng quan các bước thực hiện
 > Sơ đồ này tóm tắt thành phần và chức năng các công cụ cần sử dụng trong hướng dẫn. Click để xem hình lớn hơn.
 
