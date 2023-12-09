@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
+                "file": "kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "e36703fec5dad9cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
+                "file": "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
+                "file": "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md"
+                "file": "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md"
               }
             }
           },
@@ -155,12 +168,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8387f7bed2e0fbf4",
+  "active": "e36703fec5dad9cf",
   "lastOpenFiles": [
+    "kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md",
+    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
+    "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
+    "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
     "kien-thuc/cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung.md",
     "kien-thuc/cong-nghe/git-va-github-tim-su-dung-cong-cu-quan-ly-phien-ban-trong-lap-trinh.md",
     "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
-    "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
     "kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md",
     "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
     "kien-thuc/cong-nghe/cong-cu-khuyen-dung.md",
@@ -188,14 +204,11 @@
     "assets/templates/Button.md",
     "assets/templates/Photo layout.md",
     "kien-thuc/cong-nghe/jamstack/tuy-bien-jekyll-yat-theme.md",
-    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
     "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md",
-    "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
     "kien-thuc/obsidian/ca-nhan-hoa-obsidian-cho-rieng-ban.md",
     "blog/posts/().md",
     "kien-thuc/lib/Google Colab Premium.md",
-    "kien-thuc/python/huong-dan-su-dung-google-colab.md",
     "kien-thuc/lib",
     "kien-thuc/phat-trien-ban-than/Untitled",
     "kien-thuc/phat-trien-ban-than",

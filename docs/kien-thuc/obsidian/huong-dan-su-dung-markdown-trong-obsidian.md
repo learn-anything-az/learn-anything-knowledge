@@ -171,7 +171,7 @@ Nội dung comment có thể trong nhiều dòng.
 
 Kết quả hiển thị như sau:
 
-![Khóa học Web scraping với Python](https://learn-anything.vn/wp-content/uploads/2023/10/khoa-hoc-python-web-scraping.png)
+![Khóa học Web scraping với Python](https://course.learn-anything.vn/wp-content/uploads/2023/10/khoa-hoc-python-web-scraping.png)
 
 
 Khi sử dụng ảnh trong thư mục của máy tính, bạn có thể sử dụng địa chỉ chính xác hoặc địa chỉ tương đối đến file ảnh:
@@ -187,7 +187,7 @@ Bạn cũng có thể không cần đặt tên cho ảnh trong cặp ngoặc `[]
 
 Kết quả thu được như sau, trong đó `400` thể hiện cho chiều rộng hiển thị là 400px của ảnh.
 
-![Khóa học Web scraping với Python | 400](https://learn-anything.vn/wp-content/uploads/2023/10/khoa-hoc-python-web-scraping.png){width=400}
+![Khóa học Web scraping với Python | 400](https://course.learn-anything.vn/wp-content/uploads/2023/10/khoa-hoc-python-web-scraping.png){width=400}
 
 
 ### Link - Chèn Liên kết từ web
