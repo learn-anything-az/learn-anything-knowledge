@@ -206,7 +206,9 @@ nav:
     - Cài đặt: kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md
     - Giao diện Obsidian: kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md
     - Đồng bộ dữ liệu: kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md
-    - Soạn thảo ghi chú markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
+    - Soạn thảo ghi chú markdown: 
+      - Cú pháp markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
+      - Làm việc với bảng trong obsidian: kien-thuc/obsidian/tao-va-chinh-sua-bang-obsidian.md
     - Cấu trúc Obsidian Vault: kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md
     - Sử dụng Plugin: kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md
     - Xuất bản nội dung: kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md

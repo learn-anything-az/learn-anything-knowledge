@@ -56,15 +56,14 @@ Người sở hữu mã nguồn sẽ xem xét các thay đổi của bạn gửi
 !!! abstract "Lời nhắn"
 	Các nội dung được cung cấp tới cộng đồng nhằm phổ biến những kiến thức có giá trị và lan tỏa tới nhiều người xứng đáng được biết. Bạn có thể nhận những giá trị này hoàn toàn miễn phí. Nếu bạn muốn đóng góp nhằm ủng hộ dự án phát triển, chúng tôi sẵn sàng đón nhận. Dù là gửi tặng một ly cafe hay donate nhằm khuyến khích tác giả phát triển nội dung đều đáng trân trọng.
 
+1. **Chuyển tiền từ ví điện tử Momo**: Scan mã QR nhận tiền Momo bên dưới để chuyển tiền 👇
 
+2. **Chuyển khoản ngân hàng:** Scan mã QR nhận tiền Momo bên dưới để chuyển tiền 👇. Mã này chấp nhận chuyển tiền từ tất cả ngân hàng tại Việt Nam. Bạn cũng có thể chọn gửi tới số tài khoản ngân hàng nếu sử dụng Internet Banking qua trình duyệt web mà không tiện dùng tính năng QR. Thông tin người nhận như sau:
+   
+   - Ngân hàng nhận: `Vietcombank` chi nhánh Thanh Đa
+   - Tài khoản: nhập tên `VNSTOCK` hoặc số tài khoản `0531002498288`
 <figure markdown>
-  ![](../assets/images/momo-qr-thinhvu.jpeg)
-  <figcaption>Momo QR</figcaption>
+  ![Momo QR](../assets/images/momo_qr_all_in_one.jpg?raw=true){ width="500" }
+  <figcaption>QR chuyển tiền Momo và mọi ngân hàng</figcaption>
 </figure>
-
-??? "Click để xem Vietcombank QR"
-	<figure markdown>
-	  ![](../assets/images/vcb-qr-thinhvu.jpg)
-	  <figcaption>VCB QR</figcaption>
-	</figure>
 
