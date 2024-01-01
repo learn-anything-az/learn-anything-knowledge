@@ -60,8 +60,8 @@ Người sở hữu mã nguồn sẽ xem xét các thay đổi của bạn gửi
 
 2. **Chuyển khoản ngân hàng:** Scan mã QR nhận tiền Momo bên dưới để chuyển tiền 👇. Mã này chấp nhận chuyển tiền từ tất cả ngân hàng tại Việt Nam. Bạn cũng có thể chọn gửi tới số tài khoản ngân hàng nếu sử dụng Internet Banking qua trình duyệt web mà không tiện dùng tính năng QR. Thông tin người nhận như sau:
    
-   - Ngân hàng nhận: `Vietcombank` chi nhánh Thanh Đa
-   - Tài khoản: nhập tên `VNSTOCK` hoặc số tài khoản `0531002498288`
+	- Ngân hàng nhận: `Vietcombank` chi nhánh Thanh Đa
+	- Tài khoản: nhập tên `VNSTOCK` hoặc số tài khoản `0531002498288`
 <figure markdown>
   ![Momo QR](../assets/images/momo_qr_all_in_one.jpg?raw=true){ width="500" }
   <figcaption>QR chuyển tiền Momo và mọi ngân hàng</figcaption>

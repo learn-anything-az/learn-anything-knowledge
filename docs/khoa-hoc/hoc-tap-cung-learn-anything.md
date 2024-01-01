@@ -1,7 +1,7 @@
 ---
 date: 2023-11-21
 title: Danh mục các khóa học tại LEarn Anything
-description: Các khóa học hiện đang triển khai.
+description: Các khóa học hiện đang triển khai qua hình thức học trực tuyến bởi Learn Anything.
 tags:
   - khóa học
 categories:
@@ -9,7 +9,6 @@ categories:
 authors:
   - thinh-vu
 ---
-
 
 # Danh mục khóa học
 
@@ -41,12 +40,11 @@ Khóa học Phân tích dữ liệu với Python K4 đang triển khai từ 10/2
 <!-- Adding a break for separation -->
 <br clear="all"/>
 
-
 <div class="result" markdown>
 
 ![Khóa học Web scraping với Python](https://course.learn-anything.vn/wp-content/uploads/2023/10/khoa-hoc-python-web-scraping.png){ align=left width=600 loading=lazy}
 
-Khóa học Web Scraping với Python theo hình thức học trực tuyến qua video được ghi hình sẵn. Nội dung khóa học cung cấp cho bạn kiến thức toàn diện để triển khai một dự án thu thập dữ liệu trên Web với cấu trúc chặt chẽ cùng ví dụ minh họa thực tế. Web Scraping được ứng dụng rộng rãi trong công việc và giúp bạn cải thiện hiệu quả tối ưu khi làm việc với dữ liệu web. Hiện tại hiếm có đơn vị cung cấp khóa đào tạo bài bản về lĩnh vực này tại Việt Nam.
+Khóa học Web Scraping với Python theo hình thức học trực tuyến qua video ghi hình sẵn. Nội dung khóa học cung cấp cho bạn kiến thức toàn diện để triển khai một dự án thu thập dữ liệu trên Web với cấu trúc chặt chẽ kèm minh họa thực tế. Web Scraping được ứng dụng rộng rãi trong công việc và đạt hiệu quả tối ưu khi làm việc với dữ liệu web. Hiện tại hiếm có khóa đào tạo bài bản về lĩnh vực này tại Việt Nam.
 
 [Truy cập khóa học :material-account-school:](https://course.learn-anything.vn/course/python-web-scraping-thu-thap-du-lieu-web/){ .md-button }
 
