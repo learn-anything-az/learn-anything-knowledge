@@ -1,7 +1,7 @@
 {
   "accentColor": "#008c9e",
   "baseFontSize": 20,
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "theme": "obsidian",
   "showViewHeader": true,
   "enabledCssSnippets": [

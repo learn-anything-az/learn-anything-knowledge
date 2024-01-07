@@ -107,8 +107,7 @@ Khi sử dụng Gitpod, không có tính năng môi trường mẫu được thi
 ### Bộ cài đặt Python
 
 !!! abstract "Giới thiệu"
-
-Để sử dụng được Python trên máy tính cá nhân, môi trường cục bộ (local) thì bạn cần 3 thành phần gồm: Python, IDE (trình soạn mã), Python package (các gói thư viện python cần thiết). Trong bước này bạn sẽ được hướng dẫn lựa chọn bộ cài đặt Python phù hợp.
+	Để sử dụng được Python trên máy tính cá nhân, môi trường cục bộ (local) thì bạn cần 3 thành phần gồm: Python, IDE (trình soạn mã), Python package (các gói thư viện python cần thiết). Trong bước này bạn sẽ được hướng dẫn lựa chọn bộ cài đặt Python phù hợp.
 
 Lưu ý: Bạn chỉ cần cài đặt 1 trong 2 lựa chọn là Python hoặc Anaconda. Đối với mục đích phân tích dữ liệu và tính toán khoa học thì Anaconda được khuyên dùng vì có đầy đủ các thư viện phổ biến để sử dụng ngay và đảm bảo tính tương thích tốt tuy nhiên dung lượng cài đặt lớn hơn lựa chọn còn lại.
 
