@@ -4,10 +4,7 @@ title: Hướng dẫn cách thiết lập Obsidian cho người mới
 description: Hướng dẫn cách thiết lập ban đầu để sử dụng Obsidian nhanh chóng.
 tags:
   - obsidian
-  - thiết
-  - lập
-  - ban
-  - đầu
+  - thiết lập ban đầu
 categories:
   - Hướng dẫn
 authors:

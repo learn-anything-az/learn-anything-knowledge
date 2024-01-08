@@ -197,6 +197,7 @@ nav:
   - Trang chủ: index.md
   - Giới thiệu: 
     - Bắt đầu: gioi-thieu/index.md
+    - Giới thiệu tác giả: gioi-thieu/thinhvu-learn-anything-vnstock.md
     - Đóng góp: gioi-thieu/dong-gop-phat-trien-learn-anything.md
     - Tiêu chuẩn nội dung: gioi-thieu/tieu-chuan-noi-dung-dong-gop.md
     # - Lịch sử cập nhật: gioi-thieu/changes_log.md
@@ -221,6 +222,7 @@ nav:
     - Sử dụng Google Colab: kien-thuc/python/huong-dan-su-dung-google-colab.md
     - Tài liệu tự học Python: kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md
     - Lý do học Python không thành: kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md
+    - Đóng gói thư viện Python: kien-thuc/python/huong-dan-dong-goi-python-package-pypi.md
     # - Python trong phân tích tài chính: kien-thuc/python/python-trong-phan-tich-tai-chinh.md
   - Công nghệ:
     - Soạn thảo văn bản:
