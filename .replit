@@ -1,0 +1,8 @@
+run = "[[ports]] localPort = 3000 externalPort = 8099"
+modules = ["python-3.10:v25-20230920-d4ad2e4"]
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "[[ports]] localPort = 3000 externalPort = 8099"]
