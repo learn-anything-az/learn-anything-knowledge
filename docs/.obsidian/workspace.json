@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "9a1f3e45eb37140d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
+                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
+                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md"
+                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md"
               }
             }
           },
@@ -155,53 +168,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bf97f9938d30c19c",
+  "active": "9a1f3e45eb37140d",
   "lastOpenFiles": [
-    "assets/images/cac_dinh_dang_xuat_ban_ho_tro_boi_quarto.png",
-    "assets/images/tien_ich_mo_rong_quarto_tren_visual_studio_code.png",
-    "assets/images/trang_download_quarto_cho_may_tinh_windows.png",
-    "kien-thuc/obsidian/su-dung-obsidian-plugin-hieu-qua.md",
+    "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
+    "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
+    "kien-thuc/obsidian/xuat-ban-noi-dung-markdown-voi-quarto.md",
+    "assets/images/msedge_IVL6J8HeqY.png.~tmp",
+    "assets/images/file_pdf_xuat_tu_quarto_voi_cau_hinh_yaml_front_matter_mau.png.~tmp",
+    "assets/images/Pasted image 20240117235526.png.~tmp",
+    "assets/images/obsidian_pdf_xuat_tu_markdown.png",
+    "assets/images/file_pdf_xuat_tu_quarto_voi_cau_hinh_mac_dinh.png",
+    "assets/images/file_pdf_xuat_tu_quarto_voi_cau_hinh_yaml_front_matter_mau.png",
+    "assets/images/Pasted image 20240117234943.png",
+    "assets/images/file_pdf_xuat_tu_quarto_voi_cau_hinh_yaml_front_matter_mau.png",
     "kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md",
-    "kien-thuc/obsidian/ca-nhan-hoa-obsidian-cho-rieng-ban.md",
-    "kien-thuc/obsidian/dong-bo-du-lieu-obsidian.md",
-    "kien-thuc/obsidian/excalidraw-canvas-ghi-chu-truc-quan-trong-obsidian.md",
-    "assets/images/Excalidraw_element.png",
-    "assets/images/excalidraw operations.png",
-    "assets/images/excalidraw settings.png",
-    "assets/images/Excalidraw_navigation.png",
-    "assets/templates/Photo layout.md",
+    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
+    "CNAME",
+    "stylesheets/extra.css",
+    "stylesheets",
+    "material/overrides/partials/integrations/analytics/custom.html",
+    "material/overrides/partials/integrations/analytics",
+    "material/overrides/partials/integrations",
+    "material/overrides/test_home.html",
+    "kien-thuc/cong-nghe/jamstack/tuy-bien-trang-tai-lieu-mkdocs-material.md",
+    "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
+    "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
+    "kien-thuc/cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web.md",
+    "kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg.md",
+    "kien-thuc/tu-duy/golden-circle-ba-cau-hoi-cot-loi-giai-quyet-van-de.md",
     "kien-thuc/python/thiet-lap-moi-truong-python.md",
     "kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.md",
     "kien-thuc/python/python-trong-phan-tich-tai-chinh.md",
     "kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.md",
-    "kien-thuc/python/hoc-python-cung-learn-anything.md",
+    "kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md",
     "kien-thuc/python/huong-dan-su-dung-google-colab.md",
-    "kien-thuc/obsidian/giao-dien-obsidian-va-tinh-nang.md",
-    "gioi-thieu/dong-gop-phat-trien-learn-anything.md",
-    "assets/images/momo_qr_all_in_one.jpg",
-    "gioi-thieu/dinh-huong-phat-trien-noi-dung.md",
-    "khoa-hoc/hoc-tap-cung-learn-anything.md",
-    "khoa-hoc/khoa-hoc-phan-tich-du-lieu-voi-python.md",
-    "khoa-hoc/phan-tich-du-lieu-chung-khoan-python.md",
+    "kien-thuc/python/huong-dan-dong-goi-python-package-pypi.md",
+    "kien-thuc/python/hoc-python-cung-learn-anything.md",
+    "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
+    "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md",
+    "kien-thuc/phat-trien-ban-than/nguyen-tac-mece.md",
+    "kien-thuc/phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto.md",
+    "kien-thuc/phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md",
+    "kien-thuc/phat-trien-ban-than/bat-dau-voi-cau-hoi-tai-sao.md",
+    "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "assets/images/python_course_5_build_your_own_trading_bot_from_scratch.png",
-    "kien-thuc/obsidian/tao-va-chinh-sua-bang-obsidian.md",
-    "assets/images/thao-tac-voi-bang-table-trong-obsidian.png",
-    "gioi-thieu/changes_log.md",
-    "gioi-thieu/quy-tac-trich-dan.md",
-    "gioi-thieu/index.md",
-    "kien-thuc/cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian.md",
-    "kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md",
-    "kien-thuc/cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi.md",
-    "assets/images/tao-repo-github-tren-website.png",
-    "assets/images/logo icon youtube channel.psd",
-    "assets/images",
-    "assets/post-folder-template.zip",
-    "kien-thuc/lib",
-    "kien-thuc/phat-trien-ban-than/Untitled",
-    "kien-thuc/phat-trien-ban-than",
-    "kien-thuc/ky-nang",
-    "material/overrides/home.html",
-    "material/overrides/test_home.html",
-    "material/overrides/backup_home.html"
+    "assets/images/python_course_4_thinhvu_square.png",
+    "assets/images/prompt-yeu-cau-github-copilot-viet-code-trong-visual-studio-code.png",
+    "assets/images/obsidian-text-editor-zone-soan-thao-van-ban-tren-mobile.png",
+    "assets/images/obsidian-text-editor-zone-soan-thao-van-ban-tren-desktop.png"
   ]
 }
