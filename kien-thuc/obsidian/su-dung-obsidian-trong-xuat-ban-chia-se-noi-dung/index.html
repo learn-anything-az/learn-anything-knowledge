@@ -1275,6 +1275,8 @@
       
         
       
+        
+      
     
     
     
@@ -1590,6 +1592,26 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Xuất bản nội dung với Quarto
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1971,25 +1993,7 @@
     
     
     
-      <span class="md-tag">kiến</span>
-    
-  
-    
-    
-    
-      <span class="md-tag">thức</span>
-    
-  
-    
-    
-    
-      <span class="md-tag">nâng</span>
-    
-  
-    
-    
-    
-      <span class="md-tag">cao</span>
+      <span class="md-tag">kiến thức nâng cao</span>
     
   
     
@@ -2039,52 +2043,10 @@
 <li>Tham khảo thông tin về <a href="https://pandoc.org/">Pandoc</a></li>
 </ul>
 <h3 id="obsidian-voi-quarto">Obsidian với Quarto<a class="headerlink" href="#obsidian-voi-quarto" title="Nội dung chính">&para;</a></h3>
-<div class="admonition abstract">
-<p class="admonition-title">Giới thiệu Quarto</p>
-<p><a href="https://quarto.org/">Quarto</a> là một hệ thống phần mềm mã nguồn mở cho xuất bản nội dung khoa học và kỹ thuật. Bạn có thể tạo ra nội dung từ định dạng Jupyter Notebook (dùng cho Python, R, Julia, vv) hoặc viết với định dạng văn bản markdown trực tiếp trong trình soạn thảo yêu thích của bạn, cụ thể là Obsidian. Quarto cho phép xuất bản nội dung sang pdf định dạng tài liệu, sách, báo cáo khoa học đẹp mắt và dễ dàng giúp bổ sung điểm yếu cho Pandoc sử dụng dạng Plugin trong Obsidian.</p>
+<div class="admonition tip">
+<p class="admonition-title">Giới thiệu</p>
+<p><a href="https://quarto.org/">Quarto</a> là một hệ thống phần mềm mã nguồn mở cho xuất bản nội dung khoa học và kỹ thuật dựa trên <a href="https://pandoc.org/">Pandoc</a>. Sử dụng Quarto làm công cụ chuyển đổi nội dung từ định dạng markdown sang nhiều định dạng khác là một phần của bài viết về Xuất bản nội dung với Quarto <a href="https://learn-anything.vn/kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto">tại đây</a>.</p>
 </div>
-<p>Quarto cho phép xuất bản nội dung file markdown sang nhiều định dạng tài liệu khác nhau từ nội dung văn phòng (pdf, docx, pptx, vv) cho đến website/blog, ebook, vv một cách đơn giản và đẹp mắt. </p>
-<p>Bố cục trình bày nội dung từ một mã nguồn markdown duy nhất tạo ra bởi Quarto có chất lượng cao và sẵn sàng sử dụng. Đây là một nền tảng bạn không thể bỏ qua, tuy nhiên lại ít người để ý đến bởi bắt nguồn từ gói phần mềm R cho tính toán khoa học và thống kê thay vì người dùng đại chúng.</p>
-<h4 id="cai-at">Cài đặt<a class="headerlink" href="#cai-at" title="Nội dung chính">&para;</a></h4>
-<div class="admonition abstract">
-<p class="admonition-title">Cài đặt Quarto CLI</p>
-<p>Quarto sẽ được sử dụng như một tiện ích trong môi trường dòng lệnh (CLI - Command Line Interface) trong ứng dụng Command Prompt/Terminal.</p>
-</div>
-<p><a class="glightbox" href="../../../assets/images/trang_download_quarto_cho_may_tinh_windows.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../assets/images/trang_download_quarto_cho_may_tinh_windows.png" /></a></p>
-<p>Truy cập Quarto và tải phiên bản phù hợp cho máy tính của bạn tại link sau:</p>
-<p><a class="md-button" href="https://quarto.org/docs/dashboards/">Tải Quarto CLI <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"/></svg></span></a></p>
-<p>Bạn có thể sử dụng Quarto kèm với Visual Studio Code, cần cài thêm <a href="https://marketplace.visualstudio.com/items?itemName=quarto.quarto">Quarto extension</a>. Điều này làm hành trình sử dụng Quarto của phần đông người dùng trở nên khó khăn bởi nó mở rộng phạm vi khiến bạn sử dụng bộ công cụ của lập trình viên hơn là một người dùng ưa viết thông thường.</p>
-<p><a class="glightbox" href="../../../assets/images/tien_ich_mo_rong_quarto_tren_visual_studio_code.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../assets/images/tien_ich_mo_rong_quarto_tren_visual_studio_code.png" /></a></p>
-<h4 id="cac-inh-dang-noi-dung-xuat-ban-voi-quarto">Các định dạng nội dung xuất bản với Quarto<a class="headerlink" href="#cac-inh-dang-noi-dung-xuat-ban-voi-quarto" title="Nội dung chính">&para;</a></h4>
-<div class="admonition abstract">
-<p class="admonition-title">Xuất bản ra nhiều định dạng từ markdown</p>
-<p>Bạn có thể tham khảo danh sách đầy đủ các định dạng xuất bản mà Quarto hỗ trợ <a href="https://quarto.org/docs/reference/">tại đây</a></p>
-</div>
-<p><a class="glightbox" href="../../../assets/images/cac_dinh_dang_xuat_ban_ho_tro_boi_quarto.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../assets/images/cac_dinh_dang_xuat_ban_ho_tro_boi_quarto.png" /></a></p>
-<h4 id="xuat-noi-dung-markdown-sang-inh-dang-tuy-chinh">Xuất nội dung markdown sang định dạng tùy chỉnh<a class="headerlink" href="#xuat-noi-dung-markdown-sang-inh-dang-tuy-chinh" title="Nội dung chính">&para;</a></h4>
-<h5 id="pdf">PDF<a class="headerlink" href="#pdf" title="Nội dung chính">&para;</a></h5>
-<p>Đây là một mẫu YAML front-matter được chèn ở đầu trang markdown cho phép tạo ra mẫu file pdf định dạng sách để bạn có thể hình dung. Thực tế, bạn có thể sử dụng cài đặt mặc định của Quarto nếu không có nhu cầu tùy biến cụ thể thành sách, tài liệu, bài báo, vv.</p>
-<p>Mình đang sử dụng cấu hình này cho các tài liệu được chuyển đổi sang dạng PDF khi chia sẻ trong công việc.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>---
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>title: &quot;&quot;
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>format: 
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  pdf: 
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    documenclass: book
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    toc: true
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    toc-depth: 2
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    toc-title: Mục lục
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    number-sections: true
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    number-depth: 4
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    highlight-style: github
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    geometry:
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>      - top=30mm
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>      - left=20mm
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>      - heightrounded
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    fontfamily: inter
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>    colorlinks: true
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>    fc-list: lang=vi
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>---
-</span></code></pre></div>
 
 
   

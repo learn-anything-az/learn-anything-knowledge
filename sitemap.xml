@@ -121,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://learn-anything.vn/kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto/</loc>
+         <lastmod>2024-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://learn-anything.vn/kien-thuc/cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg/</loc>
          <lastmod>2024-01-17</lastmod>
          <changefreq>daily</changefreq>
