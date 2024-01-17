@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< Updated upstream
     "id": "a1e89ea0477d582a",
     "type": "split",
     "children": [
@@ -9,6 +10,17 @@
         "children": [
           {
             "id": "bf97f9938d30c19c",
+=======
+    "id": "b838a68759116924",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7a5e3bd418e0db1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f58d437f4a530757",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,6 +33,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< Updated upstream
     "id": "613435e3b7b62ee6",
     "type": "split",
     "children": [
@@ -30,6 +43,17 @@
         "children": [
           {
             "id": "89a3544ae7e7c67e",
+=======
+    "id": "48bc1c312a09ffaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "1aea5b5b4bff95b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bedbcca040aa9a5b",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,12 +63,20 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "b5aab821bd386159",
+=======
+            "id": "595c14900094c50d",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
+<<<<<<< Updated upstream
                 "query": "width=\"757\" height=\"426\"",
+=======
+                "query": "",
+>>>>>>> Stashed changes
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +86,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "a63e290ec9a993ef",
+=======
+            "id": "58982504b366d596",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,6 +101,7 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 399.5
   },
   "right": {
@@ -77,6 +114,20 @@
         "children": [
           {
             "id": "1ea2c5ed4e70485b",
+=======
+    "width": 300
+  },
+  "right": {
+    "id": "09b9b374b0b1a1b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0940fe2d6e50d121",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8348ec0c9b5614e",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +143,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "89fbbaf655f45754",
+=======
+            "id": "3184651eb1fd526c",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +158,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "593d0d4d84de464e",
+=======
+            "id": "7d79e2b547481053",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,12 +173,17 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "bf29b2fc764f874e",
+=======
+            "id": "93fd8baae3c9b9ae",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
             }
+<<<<<<< Updated upstream
           },
           {
             "id": "0f9806f8b337feab",
@@ -135,6 +199,15 @@
     ],
     "direction": "horizontal",
     "width": 300
+=======
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+>>>>>>> Stashed changes
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,6 +216,7 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+<<<<<<< Updated upstream
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
@@ -196,4 +270,11 @@
     "assets/images/obsidian-ribbon-thanh-cong-cu.png",
     "assets/images/obsidian-markdown-dang-danh-sach.png"
   ]
+=======
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bedbcca040aa9a5b",
+  "lastOpenFiles": []
+>>>>>>> Stashed changes
 }
