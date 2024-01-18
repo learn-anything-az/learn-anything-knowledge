@@ -14,6 +14,8 @@ authors:
 !!! tip "Chia sẻ"
 	Trong các hướng dẫn dưới đây, bạn sẽ được làm quen cách sử dụng Obsidian như một công cụ soạn thảo văn bản với Markdown để dễ dàng chia sẻ và xuất bản nội dung lên Web hoặc file.
 
+![Sử dụng markdown là phương tiện soạn thảo và chia sẻữ nội dung](../../assets/images/soan-thao-chia-se-noi-dung-tu-markdown-sang-dinh-dang-bat-ky.png)
+
 ## Chia sẻ lên web
 !!! abstract "Thông tin"
 	Dưới đây, bạn sẽ làm quen với các nền tảng tạo trang web tĩnh (Static Site Generator - SSG) giúp tạo ra nội dung website từ các file markdown. Ngoài Obsidian, bạn cũng sẽ làm quen với [Github](https://github.com/) và các dịch vụ giúp deploy (triển khai) và xuất bản trang web của bạn tới công chúng. Các công cụ SSG như MKDocs, Jekyll, Gatsby đều thuộc nhóm JAMstack, bạn có [rất nhiều lựa chọn khác](https://jamstackthemes.dev/theme/) ngoài 3 công cụ được gợi ý này.
