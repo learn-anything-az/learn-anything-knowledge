@@ -46,9 +46,9 @@ Trong thống kê, tổng thể là tập hợp tất cả các yếu tố mà b
 
 Tập hợp con này của tổng thể được gọi là một mẫu. Lý tưởng nhất là mẫu nên bảo tồn các đặc điểm thống kê thiết yếu của tổng thể ở mức độ thỏa đáng. Bằng cách đó, bạn sẽ có thể sử dụng mẫu để thu thập kết luận về tổng thể.
 
-### Giá trị ngoại lai (outlier)
+### Giá trị ngoại lai
 
-Giá trị ngoại lai là một điểm dữ liệu khác biệt đáng kể so với phần lớn dữ liệu được lấy từ một mẫu hoặc tổng thể. 
+Giá trị ngoại lai (outlier) là một điểm dữ liệu khác biệt đáng kể so với phần lớn dữ liệu được lấy từ một mẫu hoặc tổng thể. 
 Có nhiều nguyên nhân có thể tạo ra giá trị ngoại lai, nhưng sau đây là một số nguyên nhân cơ bản:
 
 - Sự thay đổi tự nhiên của dữ liệu
@@ -59,7 +59,7 @@ Lỗi thu thập dữ liệu là một nguyên nhân đặc biệt nổi bật c
 
 Không có định nghĩa toán học chính xác về các giá trị ngoại lai. Bạn phải dựa vào kinh nghiệm, kiến thức về chủ đề quan tâm và suy luận để xác định xem một điểm dữ liệu có phải là ngoại lai hay không và cách xử lý nó.
 
-## Chọn thư viện thống kê trong Python
+## Thư viện thống kê trong Python
 
 Có rất nhiều thư viện thống kê Python để bạn sử dụng, trong hướng dẫn này, bạn sẽ tìm hiểu về một số thư viện phổ biến và được sử dụng rộng rãi nhất:
 
@@ -71,7 +71,7 @@ Có rất nhiều thư viện thống kê Python để bạn sử dụng, trong 
 
 Lưu ý rằng, trong nhiều trường hợp, `Series` và `DataFrame` có thể được sử dụng thay cho các NumPy array. Thông thường, bạn có thể truyền dữ liệu vào hàm thống kê NumPy hoặc SciPy. Ngoài ra, bạn có thể lấy dữ liệu chưa được gắn nhãn (unlabeled data) từ `Series` hoặc `DataFrame` dưới dạng đối tượng `np.ndarray` bằng cách gọi `.values` hoặc `.to_numpy()`.
 
-## Làm quen với thư viện thống kê Python
+## Làm quen thư viện thống kê Python
 
 Thư viện thống kê Python tích hợp cung cấp một số ít các hàm thống kê quan trọng nhất. Tài liệu chính thức được cung cấp là nguồn thông tin quý giá để bạn tìm hiểu thêm. Nếu bạn bị giới hạn sử dụng chỉ với Python thuần, thì thư viện thống kê Python là lựa chọn sử dụng phù hợp.
 
@@ -162,7 +162,7 @@ Bạn có thể so sánh giá trị trung bình và giá trị trung vị như m
 
 Mode (Mốt hoặc Mo) là giá trị xuất hiện thường xuyên nhất trong tập dữ liệu. Nếu không có một giá trị nào như vậy, thì tập hợp đó được xem là đa mode vì nó có nhiều giá trị mode. Ví dụ: trong tập hợp chứa các điểm 2, 3, 2, 8 và 12, số 2 là mode vì nó xảy ra hai lần, không giống như các mục khác chỉ xảy ra một lần.
 
-### Tính toán mức độ phân tán của dữ liệu
+### Tính toán mức độ phân tán
 
 Xác định xu hướng tập trung đơn thuần không đủ để mô tả đặc tính của dữ liệu. Bạn cần xác định mức độ phân tán để định lượng sự phân bố của của các điểm dữ liệu. Trong phần này, bạn sẽ tìm hiểu cách xác định và tính toán giá trị xác định mức độ phân tán của dữ liệu như sau:
 
@@ -201,7 +201,19 @@ Lưu ý rằng hai bộ dữ liệu này có cùng giá trị trung bình và tr
 
 Độ lệch của mẫu đo lường sự bất đối xứng của một mẫu dữ liệu.
 
-Có nhiều định nghĩa toán học về độ lệch. Một biểu thức phổ biến để tính toán độ lệch của tập dữ liệu 𝑥 với 𝑛 phần tử là (𝑛² / ((𝑛 − 1)(𝑛 − 2))) (Σᵢ(𝑥ᵢ − mean(𝑥))³ / (𝑛𝑠³)). Một biểu thức đơn giản hơn là Σᵢ(𝑥ᵢ − mean(𝑥))³ 𝑛 / ((𝑛 − 1)(𝑛 − 2)𝑠³), trong đó 𝑖 = 1, 2, …, 𝑛 và mean(𝑥) là trung bình mẫu của 𝑥. Độ lệch được xác định bằng cách này được gọi là hệ số mômen tiêu chuẩn Fisher-Pearson đã điều chỉnh (Fisher-Pearson standardized moment coefficient).
+Có nhiều định nghĩa toán học về độ lệch. Một biểu thức phổ biến để tính toán độ lệch của tập dữ liệu 𝑥 với 𝑛 phần tử là:
+
+$$
+\text{Skewness} = \frac{n^2}{(n - 1)(n - 2)} \times \frac{\sum_{i}(x_i - \text{mean}(x))^3}{n \times s^3}
+$$
+
+Một biểu thức đơn giản hơn là:
+
+\[
+\frac{\sum_{i}(x_i - \text{mean}(x))^3 \times n}{(n - 1)(n - 2)s^3}
+\]
+
+Trong đó 𝑖 = 1, 2, …, 𝑛 và mean(𝑥) là trung bình mẫu của 𝑥. Độ lệch được xác định bằng cách này được gọi là hệ số mômen tiêu chuẩn Fisher-Pearson đã điều chỉnh (Fisher-Pearson standardized moment coefficient).
 
 Hình trước cho thấy hai bộ dữ liệu khá đối xứng. Nói cách khác, các điểm có khoảng cách tương đồng so với giá trị trung bình. Ngược lại, hình sau đây minh họa hai bộ dữ liệu bất đối xứng:
 
