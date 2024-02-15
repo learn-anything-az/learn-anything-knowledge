@@ -83,39 +83,51 @@ Chờ một lát, bạn sẽ thấy một thư mục mới được tạo ra v�
 
 Nếu bạn chưa từng sử dụng Github Desktop, bước đầu tiên cần làm là cài đặt Github Desktop trên máy tính và đăng nhập với một tài khoản Github. Bạn có thể tải Github Desktop tại đây. Sử dụng Github (và Git nói chung) là một cách không thể thiếu để quản lý mã nguồn của bạn.
 
-Mở Github Desktop
-Chọn File > Clone repository
-Paste link của repo vào cửa sổ hiện ra và chọn thư mục lưu trữ dự án để tiếp tục
+- Mở Github Desktop
+- Chọn File > Clone repository
+- Paste link của repo vào cửa sổ hiện ra và chọn thư mục lưu trữ dự án để tiếp tục
 
 ![Clone dự án với Github Desktop](https://thinhvu.com/wp-content/uploads/2023/08/github_desktop_clone.png)
 
 ### 2.2. Cập nhật mã nguồn của bạn vào thư viện
-Bạn cần tạo các file mã nguồn của thư viện, ví dụ ở đây là gadget.py và datetime_intel.py trong thư mục /code
-Thiết lập tham chiếu các file mã nguồn này trong file __init__.py.
-Thêm các dòng code để import các thành phần của thư viện vào file __init__.py. Ví dụ: from .gadget import * để import toàn bộ các phần tử (hàm, biến, vv) từ file gadget.py vào thư viện. Mỗi file mã nguồn sẽ có một dòng import tương ứng.
+Bạn cần tạo các file mã nguồn của thư viện, ví dụ ở đây là `gadget.py` và `datetime_intel.py` trong thư mục `/code`
+
+Thiết lập tham chiếu các file mã nguồn này trong file `__init__.py`.
+
+Thêm các dòng code để import các thành phần của thư viện vào file `__init__.py`. Ví dụ: `from .gadget import *` để import toàn bộ các phần tử (hàm, biến, vv) từ file `gadget.py` vào thư viện. Mỗi file mã nguồn sẽ có một dòng import tương ứng.
+
 .gadget là tên file mã nguồn (chính là file gadget.py), vì file này đặt cùng thư mục với file __init__.py bạn đang thiết lập nên dùng dấu . để tham chiếu.
 
 
 ### 2.3. Thiết lập thư viện
-setup.cfg: Thay đổi thông tin mô tả thư viện của bạn như tên, phiên bản, tác giả, email, loại giấy phép, URL mã nguồn ...
+`setup.cfg`: Thay đổi thông tin mô tả thư viện của bạn như tên, phiên bản, tác giả, email, loại giấy phép, URL mã nguồn ...
+
 pyproject.toml:
-Mục [build-system] không cần thay đổi.
-Mục [project]:
- name và description là tên và mô tả ngắn gọn gói thư viện được tạo ra để làm gì.
-version là số hiệu phiên bản của gói phần mềm, khi chia sẻ lên Pypi, bạn cần tăng số hiệu phiên bản này lên 1 đơn vị so với phiên bản trước đó. Ví dụ: phiên bản trước đó là 0.0.1 thì phiên bản mới sẽ là 0.0.2. Số hiệu này là duy nhất trên Pypi, nếu bạn cố tình tạo ra một phiên bản trùng với phiên bản đã có trên Pypi, bạn sẽ nhận được thông báo lỗi. Sau khi đã upload thư viện thành công lên Pypi, bạn có thể xóa thư viện nhưng không thể dùng lại số hiệu phiên bản đã được sử dụng đó.
+- Mục [build-system] không cần thay đổi.
+
+- Mục [project]:
+
+  - `name` và `description` là tên và mô tả ngắn gọn gói thư viện được tạo ra để làm gì.
+  - `version` là số hiệu phiên bản của gói phần mềm, khi chia sẻ lên Pypi, bạn cần tăng số hiệu phiên bản này lên 1 đơn vị so với phiên bản trước đó. Ví dụ: phiên bản trước đó là 0.0.1 thì phiên bản mới sẽ là 0.0.2. Số hiệu này là duy nhất trên Pypi, nếu bạn cố tình tạo ra một phiên bản trùng với phiên bản đã có trên Pypi, bạn sẽ nhận được thông báo lỗi. Sau khi đã upload thư viện thành công lên Pypi, bạn có thể xóa thư viện nhưng không thể dùng lại số hiệu phiên bản đã được sử dụng đó.
 
 - `dependencies:` các gói phụ thuộc được sử dụng trong thư viện của bạn, tên mỗi gói được viết một dòng, phân cách nhau bởi dấu phẩy ,. Trong ví dụ mẫu này, bạn cần thêm gói thư viện phụ thuộc là trafilatura, gói này không có sẵn khi cài python.
+
 - `README.md:` Cung cấp mô tả về thư viện và hướng dẫn sử dụng để người dùng tham chiếu. File này sẽ được hiển thị mặc định khi bạn chia sẻ thư viện lên Pypi và Github.
+
 - `LICENSE:` Chứa thông tin về giấy phép sử dụng thư viện, trong trường hợp này là giấy phép MIT. Bạn có thể tham khảo các giấy phép khác tại đây. MIT là loại giấy phép phổ biến nhất và được sử dụng rộng rãi trong cộng đồng mã nguồn mở. Bạn có thể yên tâm sử dụng giấy phép này cho thư viện của mình mà không cần làm gì thêm.
+
 - `requirements.txt:` Chứa các gói thư viện cần thiết để cài đặt thư viện của bạn, trong trường hợp này là setuptools, wheel và trafilatura. Bạn có thể chỉ rõ các gói thư viện khác nếu cần thiết, thông thường khi bạn tham chiếu một thư viện python không có sẵn khi cài đặt Python, bạn cần chỉ rõ các gói thư viện này trong file này để người dùng cài đặt thư viện này mới có thể sử dụng thư viện của bạn.
 
 ### 2.4. Chuẩn bị các công cụ cần thiết
 
-Cài đặt công cụ build để đóng gói thư viện: Sử dụng câu lệnh pip install --upgrade build hoặc python3 -m pip install --upgrade build hoặc python -m pip install --upgrade build tùy thuộc vào môi trường python bạn đang sử dụng là macOS/Linux hay Windows.
+- Cài đặt công cụ build để đóng gói thư viện: Sử dụng câu lệnh `pip install --upgrade build` hoặc `python3 -m pip install --upgrade build` hoặc `python -m pip install --upgrade build` tùy thuộc vào môi trường python bạn đang sử dụng là macOS/Linux hay Windows.
 
-Cài đặt công cụ twine để upload thư viện lên Pypi: Sử dụng câu lệnh pip install --upgrade twine để cài đặt, nếu gặp lỗi, thử đặt python -m hoặc python3 -m trước câu lệnh trên.
+- Cài đặt công cụ `twine` để upload thư viện lên Pypi: Sử dụng câu lệnh `pip install --upgrade twine` để cài đặt, nếu gặp lỗi, thử đặt python -m hoặc python3 -m trước câu lệnh trên.
 
-Tạo tài khoản PypiTest để thử nghiệm upload thư viện và Pypi để upload chính thức. Sau khi tạo tài khoản, bạn cần tạo một API token bằng cách mở mục Account Setting, tìm mục API tokens và chọn Add API tokens. Tại đây bạn chọn scope, nếu là lần đầu tiên tạo token thì chỉ cần chọn scope mặc định, áp dụng cho toàn bộ account của bạn, khi đã chia sẻ ít nhất 1 thư viện, bạn có thể chọn scope chính xác cho thư viện đó để bảo mật tài khoản, giới hạn phạm vi tác động của API tới chính xác thư viện bạn muốn làm việc. PypiTest là bản sao của Pypi để bạn làm quen và thử nghiệm trước khi tải chính thức.
+- Tạo tài khoản PypiTest để thử nghiệm upload thư viện và Pypi để upload chính thức. 
+
+- Sau khi tạo tài khoản, bạn cần tạo một API token bằng cách mở mục Account Setting, tìm mục API tokens và chọn Add API tokens. Tại đây bạn chọn scope, nếu là lần đầu tiên tạo token thì chỉ cần chọn scope mặc định, áp dụng cho toàn bộ account của bạn, khi đã chia sẻ ít nhất 1 thư viện, bạn có thể chọn scope chính xác cho thư viện đó để bảo mật tài khoản, giới hạn phạm vi tác động của API tới chính xác thư viện bạn muốn làm việc. PypiTest là bản sao của Pypi để bạn làm quen và thử nghiệm trước khi tải chính thức.
+
 Khi mới làm quen với việc chia sẻ thư viện, bạn nên bắt đầu với PypiTest, sau khi Test (kiểm thử) hoàn chỉnh và xác thực thư viện bạn có thể chạy hoàn hảo cho người dùng tải về thì có thể chuyển sang chia sẻ chính thức tại Pypi.
 
 ![H1. Thao tác với PyPI](https://thinhvu.com/wp-content/uploads/2023/08/add_a_token-1024x510.png)
@@ -130,14 +142,19 @@ Bắt đầu đóng gói khóa học với lệnh python -m build trong Termin
 ![Phân phối thư viện lên PyPI](https://thinhvu.com/wp-content/uploads/2023/08/build_succeed.png)
 
 ### 2.6. Kiểm thử thư viện với PypiTest
-Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt python3 -m twine upload --repository testpypi dist/*. Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp username và password.
-- Nhập __token__ cho username
+
+Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt `python3 -m twine upload --repository testpypi dist/*`. Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp username và password.
+
+- Nhập `__token__` cho username
 - Nhập token của PypiTest bạn đã tạo ở bước trước cho password
+
 Bạn sẽ nhận được thông báo gói thư viện được upload thành công trong Terminal/Command Prompt.
 Nội dung kiểm thử để xác nhận thư viện của mình hoạt động tốt khi phân phối:
 Xác nhận gói thư viện của bạn có thể cài đặt được trên các hệ điều hành khác nhau gồm Linux/macOS và Windows.
+
 Các gói phụ thuộc (dependencies) có được tự động cài đặt đầy đủ khi cài thư viện của bạn không? Có cần chạy câu lệnh cài dependencies với file requirements.txt hay không? python -r requirements.txt
 import thư viện như thế nào thì thành công? import từng module có hoạt động không?
+
 Các hàm có hoạt động đúng như thiết kế không? Bạn nên có sẵn 1 Jupyter Notebook, file .ipynb để chạy toàn bộ hàm cần kiểm tra và xác nhận không có lỗi nào xảy ra.
 Docstring (phần hướng dẫn nhập các tham số của hàm) có hiển thị thân thiện và đầy đủ không?
 
@@ -145,10 +162,14 @@ Docstring (phần hướng dẫn nhập các tham số của hàm) có hiển th
 
 Các bước thực hiện khi phân phối thư viện của bạn chính thức trên Pypi tương tự như với bản PypiTest, khác chút ở câu lệnh upload, cần thay thế testpypi thành pypi. Cụ thể như dưới đây.
 
-Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt python3 -m twine upload --repository pypi dist/*.
-Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp username và password.
-Nhập __token__ cho username
-Nhập token của PypiTest bạn đã tạo ở bước trước cho password
+- Upload thư viện lên PypiTest. Tiếp tục chạy câu lệnh sau với Terminal/Command Prompt `python3 -m twine upload --repository pypi dist/*`.
+
+- Bạn sẽ thấy trong Terminal/Command Prompt yêu cầu cung cấp username và password.
+
+- Nhập `__token__` cho username
+
+- Nhập token của PypiTest bạn đã tạo ở bước trước cho password
+
 Các bước kiểm tra cần được thực hiện thêm 1 lần nữa với bản chính thức này, tương tự như với PypiTest để đảm bảo thư viện hoạt động hoàn hảo.
 
 ### 2.8. Chia sẻ mã nguồn lên Github
