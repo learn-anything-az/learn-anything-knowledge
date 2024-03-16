@@ -1,0 +1,2518 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Nắm bắt các khái niệm căn bản về thống kê trong phân tích dữ liệu một cách dễ hiểu.">
+      
+      
+      
+        <link rel="canonical" href="https://learn-anything.vn/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101/">
+      
+      
+        <link rel="prev" href="../huong-dan-dong-goi-python-package-pypi/">
+      
+      
+        <link rel="next" href="../../cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../../assets/images/learn-anything-icon-transparent.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
+    
+    
+      
+        <title>Các khái niệm thống kê căn bản - Statistics 101 - LEarn Anything</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6a10b989.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Plus Jakarta Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  <!-- Google Tag Manager -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MCVBKHK6');
+</script>
+<!-- End Google Tag Manager -->
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Các khái niệm thống kê căn bản - Statistics 101 - LEarn Anything" >
+      
+        <meta  property="og:description"  content="Nắm bắt các khái niệm căn bản về thống kê trong phân tích dữ liệu một cách dễ hiểu." >
+      
+        <meta  property="og:image"  content="https://learn-anything.vn/assets/images/social/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://learn-anything.vn/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Các khái niệm thống kê căn bản - Statistics 101 - LEarn Anything" >
+      
+        <meta  name="twitter:description"  content="Nắm bắt các khái niệm căn bản về thống kê trong phân tích dữ liệu một cách dễ hiểu." >
+      
+        <meta  name="twitter:image"  content="https://learn-anything.vn/assets/images/social/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.png" >
+      
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="vnstock" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hieu-thong-ke-mo-ta" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="LEarn Anything" class="md-header__button md-logo" aria-label="LEarn Anything" data-md-component="logo">
+      
+  <img src="../../../assets/images/learn-anything-icon-transparent.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LEarn Anything
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Các khái niệm thống kê căn bản - Statistics 101
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="vnstock" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Trang chủ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../gioi-thieu/" class="md-tabs__link">
+          
+  
+    
+  
+  Giới thiệu
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../obsidian/hoc-obsidian-cung-learn-anything/" class="md-tabs__link">
+          
+  
+    
+  
+  Obsidian
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../hoc-python-cung-learn-anything/" class="md-tabs__link">
+          
+  
+    
+  
+  Python
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung/" class="md-tabs__link">
+          
+  
+    
+  
+  Công nghệ
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../phat-trien-ban-than/tot-hon-moi-ngay-learn-anything/" class="md-tabs__link">
+          
+  
+    
+  
+  Phát triển bản thân
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../khoa-hoc/hoc-tap-cung-learn-anything/" class="md-tabs__link">
+        
+  
+    
+  
+  Khóa học
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="LEarn Anything" class="md-nav__button md-logo" aria-label="LEarn Anything" data-md-component="logo">
+      
+  <img src="../../../assets/images/learn-anything-icon-transparent.png" alt="logo">
+
+    </a>
+    LEarn Anything
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trang chủ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../gioi-thieu/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Giới thiệu
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Giới thiệu
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gioi-thieu/thinhvu-learn-anything-vnstock/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Giới thiệu tác giả
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gioi-thieu/dong-gop-phat-trien-learn-anything/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Đóng góp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gioi-thieu/tieu-chuan-noi-dung-dong-gop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tiêu chuẩn nội dung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../gioi-thieu/quy-tac-trich-dan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trích dẫn
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Obsidian
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Obsidian
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/hoc-obsidian-cung-learn-anything/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Giới thiệu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/thiet-lap-ung-dung-ghi-chu-obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cài đặt
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/giao-dien-obsidian-va-tinh-nang/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Giao diện Obsidian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/dong-bo-du-lieu-obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Đồng bộ dữ liệu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Soạn thảo ghi chú markdown
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Soạn thảo ghi chú markdown
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/huong-dan-su-dung-markdown-trong-obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cú pháp markdown
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/tao-va-chinh-sua-bang-obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Làm việc với bảng trong obsidian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/excalidraw-canvas-ghi-chu-truc-quan-trong-obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ghi chú trực quan & lưu đồ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tổ chức thông tin trong Obsidian
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            Tổ chức thông tin trong Obsidian
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sử dụng thuộc tính & mô tả
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cấu trúc Obsidian Vault
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/su-dung-obsidian-plugin-hieu-qua/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sử dụng Plugin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Xuất bản nội dung
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hoc-python-cung-learn-anything/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Giới thiệu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thiet-lap-moi-truong-python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Thiết lập môi trường Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cai-dat-thu-vien-python-cho-du-an/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cài đặt gói thư viện Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lap-trinh-python-bang-ai-cho-moi-nguoi/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lập trình với AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Google Colab toàn tập
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Google Colab toàn tập
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../su-dung-terminal-trong-google-colab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dùng Terminal trong Colab
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tài liệu tự học Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ly-do-hoc-python-khong-thanh-cong/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lý do học Python không thành
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../huong-dan-dong-goi-python-package-pypi/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Đóng gói thư viện Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Khái niệm thống kê căn bản
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Khái niệm thống kê căn bản
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hieu-thong-ke-mo-ta" class="md-nav__link">
+    Hiểu thống kê mô tả
+  </a>
+  
+    <nav class="md-nav" aria-label="Hiểu thống kê mô tả">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cac-loai-o-luong" class="md-nav__link">
+    Các loại đo lường
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tong-the-va-mau" class="md-nav__link">
+    Tổng thể và mẫu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gia-tri-ngoai-lai" class="md-nav__link">
+    Giá trị ngoại lai
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thu-vien-thong-ke-trong-python" class="md-nav__link">
+    Thư viện thống kê trong Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lam-quen-thu-vien-thong-ke-python" class="md-nav__link">
+    Làm quen thư viện thống kê Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tinh-toan-thong-ke-mo-ta" class="md-nav__link">
+    Tính toán thống kê mô tả
+  </a>
+  
+    <nav class="md-nav" aria-label="Tính toán thống kê mô tả">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xac-inh-xu-huong-tap-trung" class="md-nav__link">
+    Xác định xu hướng tập trung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tinh-toan-muc-o-phan-tan" class="md-nav__link">
+    Tính toán mức độ phân tán
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Công nghệ
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Công nghệ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Soạn thảo văn bản
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Soạn thảo văn bản
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visual Studio Code
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Git & quản lý phiên bản
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Git & quản lý phiên bản
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/git-va-github-tim-su-dung-cong-cu-quan-ly-phien-ban-trong-lap-trinh/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Git và Github
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Jamstack
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Jamstack
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/jamstack/gioi-thieu-jamstack-trong-phat-trien-web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jamstack là gì
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Giới thiệu Github Pages
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Công cụ tạo trang tĩnh Jekyll
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/jamstack/tao-blog-dep-voi-jekyll-yat-theme-tu-ghi-chu-obsidian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tạo blog đẹp với Jekyll YAT theme
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Xuất bản nội dung với Quarto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Phát triển bản thân
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Phát triển bản thân
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../phat-trien-ban-than/tot-hon-moi-ngay-learn-anything/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Giới thiệu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tư duy
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tư duy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../phat-trien-ban-than/nguyen-tac-mece/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nguyên tắc MECE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nguyên lý Kim tự tháp Minto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tự học
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tự học
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kỹ thuật Feyman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../khoa-hoc/hoc-tap-cung-learn-anything/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Khóa học
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hieu-thong-ke-mo-ta" class="md-nav__link">
+    Hiểu thống kê mô tả
+  </a>
+  
+    <nav class="md-nav" aria-label="Hiểu thống kê mô tả">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cac-loai-o-luong" class="md-nav__link">
+    Các loại đo lường
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tong-the-va-mau" class="md-nav__link">
+    Tổng thể và mẫu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gia-tri-ngoai-lai" class="md-nav__link">
+    Giá trị ngoại lai
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thu-vien-thong-ke-trong-python" class="md-nav__link">
+    Thư viện thống kê trong Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lam-quen-thu-vien-thong-ke-python" class="md-nav__link">
+    Làm quen thư viện thống kê Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tinh-toan-thong-ke-mo-ta" class="md-nav__link">
+    Tính toán thống kê mô tả
+  </a>
+  
+    <nav class="md-nav" aria-label="Tính toán thống kê mô tả">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xac-inh-xu-huong-tap-trung" class="md-nav__link">
+    Xác định xu hướng tập trung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tinh-toan-muc-o-phan-tan" class="md-nav__link">
+    Tính toán mức độ phân tán
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <span class="md-tag">statistics 101</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">thống kê mô tả</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">phân tích dữ liệu</span>
+    
+  
+</nav>
+
+
+  
+  
+
+
+  <h1>Khái niệm thống kê căn bản</h1>
+
+<p>Trong thời đại của dữ liệu lớn và trí tuệ nhân tạo, khoa học dữ liệu và học máy đã trở nên thiết yếu trong nhiều lĩnh vực khoa học và công nghệ. Một khía cạnh cần thiết khi làm việc với dữ liệu là khả năng mô tả, tóm tắt và biểu diễn dữ liệu một cách trực quan. Các thư viện thống kê của Python là những công cụ toàn diện, phổ biến và được sử dụng rộng rãi sẽ hỗ trợ bạn làm việc với dữ liệu.</p>
+<p>Bài viết này sẽ giới thiệu tới bạn:</p>
+<ul>
+<li>Bạn có thể sử dụng đại lượng nào để mô tả và tóm tắt bộ dữ liệu của mình</li>
+<li>Cách tính số liệu thống kê mô tả bằng Python thuần.</li>
+<li>Cách tính số liệu thống kê mô tả với các thư viện Python có sẵn</li>
+</ul>
+<h2 id="hieu-thong-ke-mo-ta">Hiểu thống kê mô tả<a class="headerlink" href="#hieu-thong-ke-mo-ta" title="Nội dung chính">&para;</a></h2>
+<p>Thống kê mô tả nói về mô tả và tóm tắt dữ liệu. Có hai cách tiếp cận chính:</p>
+<ul>
+<li>Cách tiếp cận định lượng: mô tả và tóm tắt dữ liệu bằng các con số.</li>
+<li>Cách tiếp cận trực quan: minh họa dữ liệu bằng các loại biểu đồ, đồ thị, và các dạng tương tự.</li>
+</ul>
+<p>Bạn có thể áp dụng thống kê mô tả cho một, nhiều bộ dữ liệu hoặc biến. Khi bạn mô tả và tóm tắt một biến, bạn đang thực hiện phân tích đơn biến (univariate analysis). Khi bạn tìm kiếm các mối quan hệ thống kê giữa một cặp biến, bạn đang thực hiện phân tích hai biến số (bivariate analysis). Tương tự, phân tích đa biến (multivariate analysis) liên quan đến phân tích nhiều biến cùng một lúc.</p>
+<h3 id="cac-loai-o-luong">Các loại đo lường<a class="headerlink" href="#cac-loai-o-luong" title="Nội dung chính">&para;</a></h3>
+<p>Trong hướng dẫn này, bạn sẽ tìm hiểu về các loại đo lường sau trong thống kê mô tả:</p>
+<ul>
+<li><strong>Xu hướng tập trung (central tendency)</strong> cho bạn biết về các trung tâm của dữ liệu. Các chỉ số đo lường được sử dụng gồm Giá trị trung bình (mean), trung vị (median) và yếu vị (mode).</li>
+<li><strong>Mức độ biến thiên (Variability)</strong> cho bạn biết về sự phân tán của dữ liệu. Các chỉ số đo lường được sử dụng gồm phương sai và độ lệch chuẩn.</li>
+<li><strong>Mối tương quan (Correlation) hoặc độ biến thiên chung (joint variability):</strong> cho bạn biết về mối quan hệ giữa một cặp biến trong tập dữ liệu. Các chỉ số đo lường được sử dụng bao gồm hiệp phương sai (covariance) và hệ số tương quan (correlation coefficient).</li>
+</ul>
+<p>Bạn sẽ học cách hiểu và tính toán các chỉ số đo lường này trong Python.</p>
+<h3 id="tong-the-va-mau">Tổng thể và mẫu<a class="headerlink" href="#tong-the-va-mau" title="Nội dung chính">&para;</a></h3>
+<p>Trong thống kê, tổng thể là tập hợp tất cả các yếu tố mà bạn quan tâm. Tổng thể thường rất lớn, khiến chúng không phù hợp để thu thập dữ liệu và phân tích. Đó là lý do khiến các chuyên gia thống kê thường cố gắng đưa ra một số kết luận về tổng thể bằng cách chọn và kiểm tra một tập hợp con đại diện của tổng thể đó.</p>
+<p>Tập hợp con này của tổng thể được gọi là một mẫu. Lý tưởng nhất là mẫu nên bảo tồn các đặc điểm thống kê thiết yếu của tổng thể ở mức độ thỏa đáng. Bằng cách đó, bạn sẽ có thể sử dụng mẫu để thu thập kết luận về tổng thể.</p>
+<h3 id="gia-tri-ngoai-lai">Giá trị ngoại lai<a class="headerlink" href="#gia-tri-ngoai-lai" title="Nội dung chính">&para;</a></h3>
+<p>Giá trị ngoại lai (outlier) là một điểm dữ liệu khác biệt đáng kể so với phần lớn dữ liệu được lấy từ một mẫu hoặc tổng thể. 
+Có nhiều nguyên nhân có thể tạo ra giá trị ngoại lai, nhưng sau đây là một số nguyên nhân cơ bản:</p>
+<ul>
+<li>Sự thay đổi tự nhiên của dữ liệu</li>
+<li>Thay đổi trong hành vi của hệ thống được quan sát</li>
+<li>Sai sót trong thu thập dữ liệu</li>
+</ul>
+<p>Lỗi thu thập dữ liệu là một nguyên nhân đặc biệt nổi bật của các ngoại lai. Ví dụ, những hạn chế của các công cụ hoặc quy trình đo lường dẫn đến việc không thể thu được dữ liệu chính xác. Các lỗi khác có thể do tính toán sai, dữ liệu bị nhiễu, lỗi của con người, v.v.</p>
+<p>Không có định nghĩa toán học chính xác về các giá trị ngoại lai. Bạn phải dựa vào kinh nghiệm, kiến thức về chủ đề quan tâm và suy luận để xác định xem một điểm dữ liệu có phải là ngoại lai hay không và cách xử lý nó.</p>
+<h2 id="thu-vien-thong-ke-trong-python">Thư viện thống kê trong Python<a class="headerlink" href="#thu-vien-thong-ke-trong-python" title="Nội dung chính">&para;</a></h2>
+<p>Có rất nhiều thư viện thống kê Python để bạn sử dụng, trong hướng dẫn này, bạn sẽ tìm hiểu về một số thư viện phổ biến và được sử dụng rộng rãi nhất:</p>
+<ul>
+<li><code>statistics</code> là thư viện thống kê tích hợp trong python cho thống kê mô tả. Bạn có thể sử dụng khi  bộ dữ liệu của bạn không quá lớn hoặc nếu bạn không thể cài đặt và nạp các thư viện khác vào hệ thống để sử dụng.</li>
+<li><code>NumPy</code> là thư viện của bên thứ ba dành cho tính toán số học, được tối ưu hóa để làm việc với các mảng (array) đơn và đa chiều. Kiểu dữ liệu chính của nó là kiểu mảng, được gọi là <code>ndarray</code>. Thư viện này chứa nhiều phương thức để phân tích thống kê.</li>
+<li><code>SciPy</code> là thư viện của bên thứ ba dành cho tính toán khoa học dựa trên NumPy. Nó cung cấp các chức năng bổ sung so với NumPy, bao gồm scipy.stats để phân tích thống kê.</li>
+<li><code>pandas</code> là thư viện của bên thứ ba để tính toán số học dựa trên NumPy. Nó vượt trội trong việc xử lý dữ liệu một chiều (1D) được gắn nhãn (labeled one-dimensional data) với các đối tượng <code>Series</code> và dữ liệu hai chiều (2D) với các đối tượng <code>DataFrame</code>.</li>
+<li><code>Matplotlib</code> là thư viện của bên thứ ba để trực quan hóa dữ liệu. Nó hoạt động tốt khi kết hợp với <code>NumPy</code>, <code>SciPy</code> và <code>pandas</code>.</li>
+</ul>
+<p>Lưu ý rằng, trong nhiều trường hợp, <code>Series</code> và <code>DataFrame</code> có thể được sử dụng thay cho các NumPy array. Thông thường, bạn có thể truyền dữ liệu vào hàm thống kê NumPy hoặc SciPy. Ngoài ra, bạn có thể lấy dữ liệu chưa được gắn nhãn (unlabeled data) từ <code>Series</code> hoặc <code>DataFrame</code> dưới dạng đối tượng <code>np.ndarray</code> bằng cách gọi <code>.values</code> hoặc <code>.to_numpy()</code>.</p>
+<h2 id="lam-quen-thu-vien-thong-ke-python">Làm quen thư viện thống kê Python<a class="headerlink" href="#lam-quen-thu-vien-thong-ke-python" title="Nội dung chính">&para;</a></h2>
+<p>Thư viện thống kê Python tích hợp cung cấp một số ít các hàm thống kê quan trọng nhất. Tài liệu chính thức được cung cấp là nguồn thông tin quý giá để bạn tìm hiểu thêm. Nếu bạn bị giới hạn sử dụng chỉ với Python thuần, thì thư viện thống kê Python là lựa chọn sử dụng phù hợp.</p>
+<p>Để bắt đầu tìm hiểu về NumPy thì Hướng dẫn sử dụng chính thức (official User Guide) là một lựa chọn quan trọng, đặc biệt là phần khởi động nhanh (<a href="../../assets/images/https://numpy.org/doc/stable/user/quickstart.html">quickstart</a>) bao gồm mục thông tin cơ bản (The Basics). Tài liệu hướng dẫn chính thức có thể giúp bạn cập nhật lại các khái niệm NumPy cụ thể. Trong khi đọc hướng dẫn này, bạn có thể muốn xem phần thống kê và tài liệu tham khảo scipy.stats chính thức.</p>
+<p>Nếu bạn muốn tìm hiểu về pandas, thì trang Bắt đầu chính thức (<a href="../../assets/images/https://pandas.pydata.org/docs/getting_started/index.html">Getting Started</a>) là một nơi tuyệt vời để bắt đầu. Phần giới thiệu về cấu trúc dữ liệu có thể giúp bạn tìm hiểu về các loại dữ liệu cơ bản, Series và DataFrame. Tương tự, hướng dẫn giới thiệu chính thức cung cấp cho bạn đầy đủ thông tin để có thể bắt đầu sử dụng pandas một cách hiệu quả trong thực tế.</p>
+<p>matplotlib cung cấp Hướng dẫn sử dụng chính thức một cách toàn diện mà bạn có thể sử dụng để tìm hiểu chi tiết về cách sử dụng thư viện. <a href="../../assets/images/https://github.com/matplotlib/AnatomyOfMatplotlib">Anatomy of Matplotlib</a> là một tài nguyên tuyệt vời cho những người mới muốn bắt đầu làm việc với matplotlib và các thư viện liên quan.</p>
+<h2 id="tinh-toan-thong-ke-mo-ta">Tính toán thống kê mô tả<a class="headerlink" href="#tinh-toan-thong-ke-mo-ta" title="Nội dung chính">&para;</a></h2>
+<h3 id="xac-inh-xu-huong-tap-trung">Xác định xu hướng tập trung<a class="headerlink" href="#xac-inh-xu-huong-tap-trung" title="Nội dung chính">&para;</a></h3>
+<p>Các số liệu đo lường của xu hướng tập trung biểu thị các giá trị trung tâm hoặc trung bình của bộ dữ liệu. Có nhiều định nghĩa về giá trị được coi là trung tâm của bộ dữ liệu. Trong bài viết này, bạn sẽ học cách xác định và tính toán chỉ số về xu hướng tập trung của dữ liệu.</p>
+<ul>
+<li>Mean: Trung bình hay trung bình cộng</li>
+<li>Weighted mean: Trung bình trọng số</li>
+<li>Geometric mean: Trung bình nhân</li>
+<li>Harmonic mean: Trung bình điều hòa</li>
+<li>Median: Trung vị</li>
+<li>Mode: Mốt, Mo hay còn gọi là Yếu vị</li>
+</ul>
+<h4 id="mean">Mean<a class="headerlink" href="#mean" title="Nội dung chính">&para;</a></h4>
+<p>Giá trị trung bình mẫu, còn được gọi là giá trị trung bình số học hoặc trung bình cộng (Average), là giá trị trung bình số học của tất cả các giá trị xuất hiện trong tập dữ liệu. Nói một cách đơn giản, giá trị này được tính bằng cách lấy tổng của tất cả các phần tử trong tập dữ liệu chia cho số phần tử trong tập dữ liệu đó.</p>
+<p>Hình này minh họa giá trị trung bình của một mẫu có năm điểm dữ liệu:
+<a class="glightbox" href="../../../assets/images/mean_trung_binh_cua_mau.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../assets/images/mean_trung_binh_cua_mau.png" /></a>
+Các chấm màu xanh lục biểu thị các điểm dữ liệu 1, 2,5, 4, 8 và 28. Đường đứt nét màu đỏ là giá trị trung bình của chúng hoặc (1 + 2,5 + 4 + 8 + 28)/5 = 8,7.</p>
+<h4 id="weighted-mean">Weighted Mean<a class="headerlink" href="#weighted-mean" title="Nội dung chính">&para;</a></h4>
+<p>Giá trị trung bình có trọng số là dạng tổng quát của giá trị trung bình số học cho phép bạn xác định mức đóng góp tương đối của từng điểm dữ liệu vào kết quả.</p>
+<p>Bạn xác định một trọng số 𝑤ᵢ cho mỗi điểm dữ liệu 𝑥ᵢ của tập dữ liệu 𝑥, trong đó 𝑖 = 1, 2, …, 𝑛 và 𝑛 là số mục trong 𝑥. Sau đó, bạn nhân từng điểm dữ liệu với trọng số tương ứng, tính tổng tất cả các tích và chia tổng thu được cho tổng trọng số: Σᵢ(𝑤ᵢ𝑥ᵢ) / Σᵢ𝑤ᵢ.</p>
+<p>Giá trị trung bình trọng số rất hữu ích khi bạn cần giá trị trung bình của tập dữ liệu chứa các mục xuất hiện với tần suất tương đối nhất định. Ví dụ: giả sử bạn có một tập hợp trong đó 20% tổng số mục bằng 2, 50% số mục bằng 4 và 30% mục còn lại bằng 8. Bạn có thể tính giá trị trung bình của một bộ như sau:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="mf">0.2</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">+</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="mi">4</span> <span class="o">+</span> <span class="mf">0.3</span> <span class="o">*</span> <span class="mi">8</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="mf">4.8</span>
+</span></code></pre></div>
+<p>Ở đây, bạn tính đến các tần số xuất hiện của mỗi điểm dữ liệu với các trọng số (%). Với phương pháp này, bạn không cần biết tổng số điểm dữ liệu của mẫu để tính toán.</p>
+<h4 id="harmonic-mean">Harmonic Mean<a class="headerlink" href="#harmonic-mean" title="Nội dung chính">&para;</a></h4>
+<p>Trung bình điều hòa là nghịch đảo của trung bình nghịch đảo của tất cả các mục trong tập dữ liệu: 𝑛 / Σᵢ(1/𝑥ᵢ), trong đó 𝑖 = 1, 2, …, 𝑛 và 𝑛 là số mục trong tập dữ liệu 𝑥. Một biến thể của việc sử dụng trung bình điều hòa với Python thuần là:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">hmean</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">/</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">item</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">hmean</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="mf">2.7613412228796843</span>
+</span></code></pre></div>
+<p>Nó hoàn toàn khác với giá trị của trung bình cộng cho cùng một dữ liệu x mà bạn đã tính là 8,7.</p>
+<h4 id="geometric-mean">Geometric Mean<a class="headerlink" href="#geometric-mean" title="Nội dung chính">&para;</a></h4>
+<p>Giá trị trung bình nhân hay trung bình hình học là căn thứ 𝑛 của tích của tất cả 𝑛 phần tử 𝑥ᵢ trong tập dữ liệu 𝑥: ⁿ√(Πᵢ𝑥ᵢ), trong đó 𝑖 = 1, 2, …, 𝑛. Hình dưới đây minh họa các giá trị trung bình, trung bình điều hòa, trung bình nhân của cùng một tập dữ liệu:
+<a class="glightbox" href="../../../assets/images/geometric_mean_trung_binh_nhan_cua_mau.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="" src="../../../assets/images/geometric_mean_trung_binh_nhan_cua_mau.png" /></a>
+Một lần nữa, các chấm màu xanh lá cây đại diện cho các điểm dữ liệu 1, 2.5, 4, 8 và 28. Đường đứt nét màu đỏ là giá trị trung bình. Đường đứt nét màu xanh là giá trị trung bình điều hòa và đường đứt nét màu vàng là giá trị trung bình hình học.</p>
+<h4 id="median">Median<a class="headerlink" href="#median" title="Nội dung chính">&para;</a></h4>
+<p>Trung vị là phần tử ở giữa của tập dữ liệu được sắp xếp. Tập dữ liệu có thể được sắp xếp theo thứ tự tăng dần hoặc giảm dần. Nếu số phần tử 𝑛 của tập dữ liệu là số lẻ thì trung vị là giá trị ở vị trí chính giữa: 0,5(𝑛 + 1). Nếu 𝑛 chẵn thì trung vị là trung bình cộng của hai giá trị ở giữa, nghĩa là các phần tử ở vị trí 0,5𝑛 và 0,5𝑛 + 1.</p>
+<p>Ví dụ: nếu bạn có các điểm dữ liệu 2, 4, 1, 8 và 9 thì giá trị trung bình là 4, nằm ở giữa tập dữ liệu đã sắp xếp (1, 2, 4, 8, 9). Nếu các điểm dữ liệu là 2, 4, 1 và 8 thì trung vị là 3, là trung bình cộng của hai phần tử ở giữa của dãy đã sắp xếp (2 và 4). Hình dưới đây minh họa điều này:
+<a class="glightbox" href="../../../assets/images/median_trung_vi_mau.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="median" src="../../../assets/images/median_trung_vi_mau.png" /></a></p>
+<p>Các điểm dữ liệu là các chấm màu xanh lá cây và các đường màu tím hiển thị giá trị trung vị cho từng tập dữ liệu. Giá trị trung vị cho tập dữ liệu phía trên (1, 2.5, 4, 8 và 28) là 4. Nếu bạn loại bỏ giá trị ngoại lai 28 khỏi tập dữ liệu phía dưới, thì trung vị sẽ trở thành trung bình số học giữa 2.5 và 4, tức là 3.25.</p>
+<p>Hình dưới đây cho thấy cả giá trị trung bình và giá trị trung vị của các điểm dữ liệu 1, 2.5, 4, 8 và 28:
+<a class="glightbox" href="../../../assets/images/so_sanh_trung_binh_trung_vi_mean_median.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="mean vs median" src="../../../assets/images/so_sanh_trung_binh_trung_vi_mean_median.png" /></a>
+Một lần nữa, giá trị trung bình là đường đứt nét màu đỏ, trong khi trung vị là đường màu tím.</p>
+<p>Sự khác biệt chính giữa giá trị trung bình và trung vị có liên quan đến các giá trị ngoại lai của tập dữ liệu (ở đây  là 28). Giá trị trung bình bị ảnh hưởng nặng nề bởi các giá trị ngoại lai, nhưng giá trị trung vị chỉ bị ảnh hưởng bởi các giá trị ngoại lai một chút hoặc hoàn toàn không. Xét hình sau:</p>
+<p><a class="glightbox" href="../../../assets/images/so_sanh_trung_binh_trung_vi_ngoai_lai_mean_median_outlier.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="mean median, vs outliers" src="../../../assets/images/so_sanh_trung_binh_trung_vi_ngoai_lai_mean_median_outlier.png" /></a></p>
+<p>Tập dữ liệu phía trên lại có các mục 1, 2.5, 4, 8 và 28. Giá trị trung bình của nó là 8.7 và trung vị là 5. Tập dữ liệu bên dưới hiển thị những gì diễn ra khi bạn di chuyển điểm ngoài cùng bên phải có giá trị 28:</p>
+<p>Nếu bạn tăng giá trị này (di chuyển nó sang phải), thì giá trị trung bình sẽ tăng, nhưng giá trị trung vị sẽ không bao giờ thay đổi.
+Nếu bạn giảm giá trị của nó (di chuyển nó sang trái), thì giá trị trung bình sẽ giảm, nhưng giá trị trung vị sẽ giữ nguyên cho đến khi giá trị của điểm di chuyển lớn hơn hoặc bằng 4.
+Bạn có thể so sánh giá trị trung bình và giá trị trung vị như một cách để phát hiện các giá trị ngoại lai và tính bất đối xứng trong dữ liệu của mình. Giá trị trung bình hay giá trị trung vị hữu ích hơn cho bạn tùy thuộc vào ngữ cảnh của vấn đề cụ thể của bạn.</p>
+<h4 id="mode">Mode<a class="headerlink" href="#mode" title="Nội dung chính">&para;</a></h4>
+<p>Mode (Mốt hoặc Mo) là giá trị xuất hiện thường xuyên nhất trong tập dữ liệu. Nếu không có một giá trị nào như vậy, thì tập hợp đó được xem là đa mode vì nó có nhiều giá trị mode. Ví dụ: trong tập hợp chứa các điểm 2, 3, 2, 8 và 12, số 2 là mode vì nó xảy ra hai lần, không giống như các mục khác chỉ xảy ra một lần.</p>
+<h3 id="tinh-toan-muc-o-phan-tan">Tính toán mức độ phân tán<a class="headerlink" href="#tinh-toan-muc-o-phan-tan" title="Nội dung chính">&para;</a></h3>
+<p>Xác định xu hướng tập trung đơn thuần không đủ để mô tả đặc tính của dữ liệu. Bạn cần xác định mức độ phân tán để định lượng sự phân bố của của các điểm dữ liệu. Trong phần này, bạn sẽ tìm hiểu cách xác định và tính toán giá trị xác định mức độ phân tán của dữ liệu như sau:</p>
+<p>Varian: Phương sai
+Standard deviation: Độ lệch chuẩn
+Skewness: Độ lệch
+Percentiles: bách phân vị
+Ranges: khoảng biến thiên</p>
+<h4 id="variance">Variance<a class="headerlink" href="#variance" title="Nội dung chính">&para;</a></h4>
+<p>Giá trị phương sai định lượng mức độ phân tán của dữ liệu. Nó biểu thị bằng số học các điểm dữ liệu cách giá trị trung bình bao xa. Bạn có thể biểu thị phương sai mẫu của tập dữ liệu 𝑥 với 𝑛 phần tử dưới dạng toán học là 𝑠² = Σᵢ(𝑥ᵢ − mean(𝑥))² / (𝑛 − 1), trong đó 𝑖 = 1, 2, …, 𝑛 và mean(𝑥) là trung bình mẫu của 𝑥. Nếu bạn muốn hiểu sâu hơn tại sao bạn chia tổng cho 𝑛 − 1 thay vì 𝑛, thì bạn có thể tìm hiểu sâu hơn về <a href="../../assets/images/https://en.wikipedia.org/wiki/Bessel%27s_correction">hiệu chỉnh của Bessel</a>.</p>
+<p>Hình dưới đây cho bạn thấy lý do tại sao việc xem xét phương sai lại quan trọng khi mô tả bộ dữ liệu:</p>
+<p><a class="glightbox" href="../../../assets/images/minh_hoa_phuong_sai_mau_variance.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="variance" src="../../../assets/images/minh_hoa_phuong_sai_mau_variance.png" /></a></p>
+<p>Có hai bộ dữ liệu trong hình này:</p>
+<p>Dấu chấm màu xanh: Tập dữ liệu này có phương sai nhỏ hơn hoặc chênh lệch trung bình nhỏ hơn so với giá trị trung bình. Nó cũng có khoảng biến thiên nhỏ hơn hoặc chênh lệch nhỏ hơn giữa mục lớn nhất và mục nhỏ nhất.
+Chấm trắng: Tập dữ liệu này có phương sai lớn hơn hoặc chênh lệch trung bình lớn hơn so với giá trị trung bình. Nó cũng có khoảng biến thiên lớn hơn hoặc chênh lệch lớn hơn giữa mục lớn nhất và mục nhỏ nhất.</p>
+<p>Lưu ý rằng hai bộ dữ liệu này có cùng giá trị trung bình và trung vị, mặc dù chúng có vẻ khác nhau đáng kể. Cả giá trị trung bình và trung vị đều không thể mô tả sự khác biệt này. Đó là lý do tại sao bạn cần đo lường độ phân tán của dữ liệu.</p>
+<h4 id="standard-deviation">Standard Deviation<a class="headerlink" href="#standard-deviation" title="Nội dung chính">&para;</a></h4>
+<p>Độ lệch chuẩn của mẫu là một cách định lượng khác về mức độ phân tán của dữ liệu. Nó được kết hợp với phương sai mẫu (sample variance), vì độ lệch chuẩn, 𝑠, là căn bậc hai dương của phương sai mẫu. Độ lệch chuẩn thường thuận tiện hơn phương sai vì nó có cùng đơn vị với các điểm dữ liệu. Khi bạn nhận được phương sai, bạn có thể tính độ lệch chuẩn bằng Python thuần:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">std_</span> <span class="o">=</span> <span class="n">var_</span> <span class="o">**</span> <span class="mf">0.5</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">std_</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="mf">11.099549540409285</span>
+</span></code></pre></div>
+<h4 id="skewness">Skewness<a class="headerlink" href="#skewness" title="Nội dung chính">&para;</a></h4>
+<p>Độ lệch của mẫu đo lường sự bất đối xứng của một mẫu dữ liệu.</p>
+<p>Có nhiều định nghĩa toán học về độ lệch. Một biểu thức phổ biến để tính toán độ lệch của tập dữ liệu 𝑥 với 𝑛 phần tử là:</p>
+<div class="arithmatex">\[
+\text{Skewness} = \frac{n^2}{(n - 1)(n - 2)} \times \frac{\sum_{i}(x_i - \text{mean}(x))^3}{n \times s^3}
+\]</div>
+<p>Một biểu thức đơn giản hơn là:</p>
+<div class="arithmatex">\[
+\frac{\sum_{i}(x_i - \text{mean}(x))^3 \times n}{(n - 1)(n - 2)s^3}
+\]</div>
+<p>Trong đó 𝑖 = 1, 2, …, 𝑛 và mean(𝑥) là trung bình mẫu của 𝑥. Độ lệch được xác định bằng cách này được gọi là hệ số mômen tiêu chuẩn Fisher-Pearson đã điều chỉnh (Fisher-Pearson standardized moment coefficient).</p>
+<p>Hình trước cho thấy hai bộ dữ liệu khá đối xứng. Nói cách khác, các điểm có khoảng cách tương đồng so với giá trị trung bình. Ngược lại, hình sau đây minh họa hai bộ dữ liệu bất đối xứng:</p>
+<p><a class="glightbox" href="../../../assets/images/do_lech_mau_skewness.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="skewness" src="../../../assets/images/do_lech_mau_skewness.png" /></a></p>
+<p>Bộ dữ liệu đầu tiên được biểu thị bằng các chấm màu xanh lá cây và bộ thứ hai có các chấm màu trắng. Thông thường, các giá trị độ lệch âm cho biết rằng có một phần đuôi dài ở phía bên trái mà bạn có thể nhìn thấy với tập hợp đầu tiên. Các giá trị độ lệch dương tương ứng với phần đuôi dài hơn hoặc mập hơn ở phía bên phải mà bạn có thể thấy trong tập hợp thứ hai. Nếu độ lệch gần bằng 0 (ví dụ: từ -0,5 đến 0,5), thì tập dữ liệu được coi là khá đối xứng.</p>
+<p>Đối tượng pandas Series cung cấp phương thức <code>.skew()</code> cho phép tính toán độ lệch của tập dữ liệu một cách đơn giản.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">z</span><span class="p">,</span> <span class="n">z_with_nan</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">x_with_nan</span><span class="p">)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">z</span><span class="o">.</span><span class="n">skew</span><span class="p">()</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="mf">1.9470432273905924</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">z_with_nan</span><span class="o">.</span><span class="n">skew</span><span class="p">()</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="mf">1.9470432273905924</span>
+</span></code></pre></div>
+<p>Giống như các phương pháp khác trong pandas, <code>.skew()</code> bỏ qua các giá trị <code>nan</code> theo mặc định, bởi vì giá trị mặc định của tham số <code>skipna</code> cho phép làm điều đó.</p>
+<h4 id="percentiles">Percentiles<a class="headerlink" href="#percentiles" title="Nội dung chính">&para;</a></h4>
+<p>Phân vị mẫu 𝑝 là phần tử trong tập dữ liệu sao cho 𝑝% phần tử trong tập dữ liệu nhỏ hơn hoặc bằng giá trị đó. Ngoài ra, (100 − 𝑝)% phần tử lớn hơn hoặc bằng giá trị đó. Nếu có hai phần tử như vậy trong tập dữ liệu thì phân vị mẫu 𝑝 là trung bình số học của chúng. Mỗi tập dữ liệu có ba  phân vị, là giá trị phần trăm chia tập dữ liệu thành bốn phần:</p>
+<ul>
+<li>Tứ phân vị đầu tiên là phân vị thứ 25 của mẫu. Nó chia khoảng 25% các mục nhỏ nhất khỏi phần còn lại của tập dữ liệu.</li>
+<li>Tứ phân vị thứ hai là phân vị thứ 50 của mẫu hoặc trung vị. Khoảng 25% các mục nằm giữa tứ phân vị thứ nhất và thứ hai và 25% khác nằm giữa tứ phân vị thứ hai và thứ ba.</li>
+<li>Tứ phân vị thứ ba là phân vị thứ 75 của mẫu. Nó chia khoảng 25% các mục lớn nhất khỏi phần còn lại của tập dữ liệu.
+  Mỗi phần có số lượng phần tử xấp xỉ như nhau. Nếu bạn muốn chia dữ liệu của mình thành nhiều khoảng, thì bạn có thể sử dụng <code>stats.quantiles()</code>:</li>
+</ul>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c1"># Import</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">statistics</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c1"># Demo</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mf">5.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">,</span> <span class="mf">12.8</span><span class="p">,</span> <span class="mf">21.0</span><span class="p">,</span> <span class="mf">25.8</span><span class="p">,</span> <span class="mf">41.0</span><span class="p">]</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">statistics</span><span class="o">.</span><span class="n">quantiles</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="p">[</span><span class="mf">8.0</span><span class="p">]</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">statistics</span><span class="o">.</span><span class="n">quantiles</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">&#39;inclusive&#39;</span><span class="p">)</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">,</span> <span class="mf">21.0</span><span class="p">]</span>
+</span></code></pre></div>
+<p>Trong ví dụ này, 8,0 là trung vị của x, trong khi 0,1 và 21,0 lần lượt là phần trăm thứ 25 và 75 của mẫu. Tham số n xác định số phần trăm có xác suất bằng nhau thu được và phương pháp xác định cách tính chúng.</p>
+<h4 id="ranges">Ranges<a class="headerlink" href="#ranges" title="Nội dung chính">&para;</a></h4>
+<p>Khoảng biến thiên là sự khác biệt giữa giá trị tối đa và tối thiểu của phần tử trong tập dữ liệu. Để tính khoảng biến thiên, có thể sử dụng hàm có sẵn trong Python max() - min() hoặc tính hiệu số của .max() và .min() của series trong pandas. Lưu ý, pandas loại bỏ các giá trị NaN trước khi tính toán.</p>
+<hr />
+<p>Còn nữa..</p>
+<p>Nguồn: <a href="https://realpython.com/python-statistics/">Python Statistics Fundamentals: How to Describe Your Data</a></p>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../huong-dan-dong-goi-python-package-pypi/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Đóng gói thư viện Python">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Đóng gói thư viện Python
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../cong-nghe/visual-studio-code-ung-dung-lap-trinh-da-dung/" class="md-footer__link md-footer__link--next" aria-label="Next: Visual Studio Code">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Visual Studio Code
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@learn_anything_az?sub_confirmation=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/learn.anything.az" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://learnanything.substack.com/" target="_blank" rel="noopener" title="learnanything.substack.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 48v439.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400l153.7 107.6c4.1 2.9 9 4.4 14 4.4 13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://learn-anything.vn" target="_blank" rel="noopener" title="learn-anything.vn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7zm-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6zM8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zm186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6h116.7zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.6z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.code.annotate", "content.tooltips", "search.suggest", "search.highlight", "search.share", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "navigation.footer", "navigation.indexes", "toc.follow", "navigation.top"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+  
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCVBKHK6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
