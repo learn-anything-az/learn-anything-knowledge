@@ -12,10 +12,12 @@ categories:
 authors:
   - thinh-vu
 ---
-
 !!! tip "Giới thiệu"
 	Metadata hay properties trong Obsidian (hay YAML frontmatter trong markdown) là những thông tin bạn miêu tả các thuộc tính, đặc điểm nhận dạng một ghi chú bất kỳ của bạn. Việc này giúp bạn phân loại, lưu trữ, tra cứu và sử dụng được dễ dàng, thuận tiện nhất. Ngoài ra trong Obsidian, bạn có thể sử dụng plugin Dataview để thống kê, biểu diễn thông tin có trong hệ cơ sở dữ liệu ghi chú của mình một cách linh hoạt và thú vị.
-	
+
+<div style="display: flex; justify-content: center;">
+<iframe width="914" height="514"src="https://www.youtube.com/embed/H4I3d_xpkAs?si=BA9ffybbu1Wk50LS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ## Quá trình quản lý, ghi chú và sử dụng
 
 !!! tip "Quá trình quản lý ghi chú với thuộc tính metadata"
@@ -41,7 +43,7 @@ Có một sự thật là bạn có thể tạo ra các mẫu ghi chú bao quát
 
 Mình chia hệ thống mẫu ghi chú cho cá nhân thành 2 nhóm chính như dưới đây. bạn có thể tìm thấy một số mẫu trong hệ thống [Obsidian Go](https://learn-anything.vn/kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian/#cai-at-mau-obsidian-go) mình chia sẻ.
 
-1. **1CÔNG VIỆC (Professional):** Các ghi chú công việc thể hiện đặc trưng cho hoạt động tại công ty, dự án yêu cầu tính chuyên nghiệp. Một vài ví dụ giúp bạn dễ hình dung hơn.
+1. **CÔNG VIỆC (Professional):** Các ghi chú công việc thể hiện đặc trưng cho hoạt động tại công ty, dự án yêu cầu tính chuyên nghiệp. Một vài ví dụ giúp bạn dễ hình dung hơn.
 	- New Notes: Các ghi chú chung chưa phân loại hoặc có mẫu cụ thể.
 	- Meeting Notes: ghi chú cuộc họp
 	- Documentation: các ghi chú công việc chung hoặc thuật lại các phương pháp, cách thức thực hiện một số công việc phức tạp cần lưu lại.
