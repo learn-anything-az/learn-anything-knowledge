@@ -11,7 +11,7 @@ categories:
 authors:
   - thinh-vu
 ---
-
+https://learn-anything.vn/kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto/https://learn-anything.vn/kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto/
 !!! abstract "Giới thiệu Quarto"
 	  [Quarto](https://quarto.org/) là một hệ thống phần mềm mã nguồn mở cho xuất bản nội dung khoa học và kỹ thuật dựa trên [Pandoc](https://pandoc.org/). Bạn có thể tạo ra nội dung từ định dạng Jupyter Notebook (dùng cho Python, R, Julia, vv) hoặc viết với định dạng văn bản markdown trực tiếp trong trình soạn thảo yêu thích của bạn, cụ thể là Obsidian. Quarto cho phép xuất bản nội dung sang pdf định dạng tài liệu, sách, báo cáo khoa học đẹp mắt và dễ dàng giúp bổ sung điểm yếu cho Pandoc sử dụng dạng Plugin trong Obsidian. 
 

@@ -11,10 +11,10 @@ categories:
 authors:
   - thinh-vu
 ---
+## Tổ chức ghi chú theo phương pháp PARA
 
-## Phương pháp PARA
-
-> PARA là viết tắt của “Projects” (Dự án), “Areas” (Lĩnh vực), “Resources” (Tài nguyên) và “Archives” (Lưu trữ). Đây là bốn phân loại chính mà tác giả Tiago Forte đề xuất chúng ta nên sử dụng để tổ chức thông tin trong cuộc sống và công việc của mình.
+!!! tip "Giới thiệu"
+	PARA là viết tắt của “Projects” (Dự án), “Areas” (Lĩnh vực), “Resources” (Tài nguyên) và “Archives” (Lưu trữ). Đây là bốn phân loại chính mà tác giả Tiago Forte đề xuất chúng ta nên sử dụng để tổ chức thông tin trong cuộc sống và công việc của mình.
 
 <figure markdown>
   ![Image title](https://thinhvu.com/wp-content/uploads/2023/05/phuong-phap-para-summary-thinhvu.jpg){width="600"}

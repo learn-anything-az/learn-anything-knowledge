@@ -27,7 +27,7 @@
               "state": {
                 "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -170,6 +170,7 @@
   },
   "active": "9a1f3e45eb37140d",
   "lastOpenFiles": [
+    "assets/images/xem-thay-doi-trong-ma-nguon-github.png",
     "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
     "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
     "kien-thuc/obsidian/xuat-ban-noi-dung-markdown-voi-quarto.md",
@@ -210,7 +211,6 @@
     "kien-thuc/phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto.md",
     "kien-thuc/phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md",
     "kien-thuc/phat-trien-ban-than/bat-dau-voi-cau-hoi-tai-sao.md",
-    "kien-thuc/obsidian/thiet-lap-ung-dung-ghi-chu-obsidian.md",
     "assets/images/python_course_5_build_your_own_trading_bot_from_scratch.png",
     "assets/images/python_course_4_thinhvu_square.png",
     "assets/images/prompt-yeu-cau-github-copilot-viet-code-trong-visual-studio-code.png",
