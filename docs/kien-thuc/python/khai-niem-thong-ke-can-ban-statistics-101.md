@@ -19,7 +19,7 @@ Bài viết này sẽ giới thiệu tới bạn:
 
 - Bạn có thể sử dụng đại lượng nào để mô tả và tóm tắt bộ dữ liệu của mình
 - Cách tính số liệu thống kê mô tả bằng Python thuần.
-  - Cách tính số liệu thống kê mô tả với các thư viện Python có sẵn
+- Cách tính số liệu thống kê mô tả với các thư viện Python có sẵn
 
 ## Hiểu thống kê mô tả
 
@@ -166,11 +166,11 @@ Mode (Mốt hoặc Mo) là giá trị xuất hiện thường xuyên nhất tron
 
 Xác định xu hướng tập trung đơn thuần không đủ để mô tả đặc tính của dữ liệu. Bạn cần xác định mức độ phân tán để định lượng sự phân bố của của các điểm dữ liệu. Trong phần này, bạn sẽ tìm hiểu cách xác định và tính toán giá trị xác định mức độ phân tán của dữ liệu như sau:
 
-Varian: Phương sai
-Standard deviation: Độ lệch chuẩn
-Skewness: Độ lệch
-Percentiles: bách phân vị
-Ranges: khoảng biến thiên
+- Varian: Phương sai
+- Standard deviation: Độ lệch chuẩn
+- Skewness: Độ lệch
+- Percentiles: bách phân vị
+- Ranges: khoảng biến thiên
 
 #### Variance
 
