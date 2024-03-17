@@ -2298,11 +2298,13 @@ Bạn có thể so sánh giá trị trung bình và giá trị trung vị như m
 <p>Mode (Mốt hoặc Mo) là giá trị xuất hiện thường xuyên nhất trong tập dữ liệu. Nếu không có một giá trị nào như vậy, thì tập hợp đó được xem là đa mode vì nó có nhiều giá trị mode. Ví dụ: trong tập hợp chứa các điểm 2, 3, 2, 8 và 12, số 2 là mode vì nó xảy ra hai lần, không giống như các mục khác chỉ xảy ra một lần.</p>
 <h3 id="tinh-toan-muc-o-phan-tan">Tính toán mức độ phân tán<a class="headerlink" href="#tinh-toan-muc-o-phan-tan" title="Nội dung chính">&para;</a></h3>
 <p>Xác định xu hướng tập trung đơn thuần không đủ để mô tả đặc tính của dữ liệu. Bạn cần xác định mức độ phân tán để định lượng sự phân bố của của các điểm dữ liệu. Trong phần này, bạn sẽ tìm hiểu cách xác định và tính toán giá trị xác định mức độ phân tán của dữ liệu như sau:</p>
-<p>Varian: Phương sai
-Standard deviation: Độ lệch chuẩn
-Skewness: Độ lệch
-Percentiles: bách phân vị
-Ranges: khoảng biến thiên</p>
+<ul>
+<li>Varian: Phương sai</li>
+<li>Standard deviation: Độ lệch chuẩn</li>
+<li>Skewness: Độ lệch</li>
+<li>Percentiles: bách phân vị</li>
+<li>Ranges: khoảng biến thiên</li>
+</ul>
 <h4 id="variance">Variance<a class="headerlink" href="#variance" title="Nội dung chính">&para;</a></h4>
 <p>Giá trị phương sai định lượng mức độ phân tán của dữ liệu. Nó biểu thị bằng số học các điểm dữ liệu cách giá trị trung bình bao xa. Bạn có thể biểu thị phương sai mẫu của tập dữ liệu 𝑥 với 𝑛 phần tử dưới dạng toán học là 𝑠² = Σᵢ(𝑥ᵢ − mean(𝑥))² / (𝑛 − 1), trong đó 𝑖 = 1, 2, …, 𝑛 và mean(𝑥) là trung bình mẫu của 𝑥. Nếu bạn muốn hiểu sâu hơn tại sao bạn chia tổng cho 𝑛 − 1 thay vì 𝑛, thì bạn có thể tìm hiểu sâu hơn về <a href="../../assets/images/https://en.wikipedia.org/wiki/Bessel%27s_correction">hiệu chỉnh của Bessel</a>.</p>
 <p>Hình dưới đây cho bạn thấy lý do tại sao việc xem xét phương sai lại quan trọng khi mô tả bộ dữ liệu:</p>
