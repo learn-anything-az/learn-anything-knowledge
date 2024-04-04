@@ -215,7 +215,7 @@ apt install nano
 Để cài đặt Vim, bạn sử dụng câu lệnh dưới đây:
 
 ```
-apt-get install vim.
+apt-get install vim
 ```
 
 ### Sử dụng Nano/Vim trong máy ảo

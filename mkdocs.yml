@@ -252,6 +252,7 @@ nav:
     - Cloud Server và tạo Bot:
       - Tạo tài khoản Oracle Cloud: kien-thuc/cong-nghe/thiet_lap_cloud_server_oracle_always_free.md
       - Thiết lập máy ảo Ubuntu: kien-thuc/cong-nghe/tao_may_chu_ao_linux_ubuntu_tren_oracle_cloud_server.md
+      - Lên lịch tác vụ tự độn với Cron: kien-thuc/cong-nghe/tu_dong_thuc_hien_cong_viec_voi_cron_linux_ubuntu.md
   - Phát triển bản thân:
     - Giới thiệu: kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md
     - Tư duy:
