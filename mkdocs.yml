@@ -229,6 +229,7 @@ nav:
     - Cài đặt gói thư viện Python: kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md
     - Lập trình với AI: kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md
     - Google Colab toàn tập: 
+        - Google Colab 101: kien-thuc/python/huong-dan-su-dung-google-colab.md
         # - Sử dụng Google Colab cơ bản: kien-thuc/python/huong-dan-su-dung-google-colab.md
         # - Sử dụng Colab AI: kien-thuc/python/lap-trinh-python-de-dang-voi-google-colab-ai.md
         - Dùng Terminal trong Colab: kien-thuc/python/su-dung-terminal-trong-google-colab.md
