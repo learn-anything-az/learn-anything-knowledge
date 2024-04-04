@@ -18,6 +18,7 @@ authors:
 <div style="display: flex; justify-content: center;">
 <iframe width="914" height="514"src="https://www.youtube.com/embed/H4I3d_xpkAs?si=BA9ffybbu1Wk50LS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
 ## Quá trình quản lý, ghi chú và sử dụng
 
 !!! tip "Quá trình quản lý ghi chú với thuộc tính metadata"
