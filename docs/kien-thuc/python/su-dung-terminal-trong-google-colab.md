@@ -38,7 +38,7 @@ Codename:       jammy
 
 Để sử dụng tính năng Terminal trong Colab, bạn có thể bắt đầu nhanh bằng việc mở Notebook dưới đây và tương tác trực tiếp. Một số gợi ý trong hướng dẫn này cũng giúp bạn sử dụng tính năng terminal hiệu quả và tránh các hành vi bị cấm bởi Google.
 
-[Khởi động Demo Notebook](https://colab.research.google.com/drive/1PxWbJ-knmRDzw7IEvW3sOmZO7zGNQxPI#scrollTo=7BTt-5s8TGGu){ .md-button }
+[Khởi động Demo Notebook](https://colab.research.google.com/gist/thinh-vu/52cfa8da9343bb777cc3a77e592fdcb4/s-d-ng-terminal-trong-google-colab-v-i-xterm-learn-anything.ipynb){ .md-button }
 
 ### Cài đặt
 Mở một ô lệnh bất kỳ, paste và chạy câu lệnh sau (Đã có trong file demo):
