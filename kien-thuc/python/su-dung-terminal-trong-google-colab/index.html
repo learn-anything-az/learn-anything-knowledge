@@ -6,14 +6,14 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Ignite curiosity. Inspire learning.">
+        <meta name="description" content="Cách sử dụng Terminal hoàn toàn miễn phí trong Google Colab để thực hiện các thao tác nâng cao với hệ điều hành Ubuntu của máy ảo Google.">
       
       
       
         <link rel="canonical" href="https://learn-anything.vn/kien-thuc/python/su-dung-terminal-trong-google-colab/">
       
       
-        <link rel="prev" href="../lap-trinh-python-bang-ai-cho-moi-nguoi/">
+        <link rel="prev" href="../huong-dan-su-dung-google-colab/">
       
       
         <link rel="next" href="../tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python/">
@@ -23,18 +23,18 @@
         <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
       
       <link rel="icon" href="../../../assets/images/learn-anything-icon-transparent.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
-        <title>Dùng Terminal trong Colab - LEarn Anything</title>
+        <title>Hướng dẫn sử dụng Terminal trong Google Colab với Xterm miễn phí - LEarn Anything</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.6a10b989.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -79,9 +79,9 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Dùng Terminal trong Colab - LEarn Anything" >
+        <meta  property="og:title"  content="Hướng dẫn sử dụng Terminal trong Google Colab với Xterm miễn phí - LEarn Anything" >
       
-        <meta  property="og:description"  content="Ignite curiosity. Inspire learning." >
+        <meta  property="og:description"  content="Cách sử dụng Terminal hoàn toàn miễn phí trong Google Colab để thực hiện các thao tác nâng cao với hệ điều hành Ubuntu của máy ảo Google." >
       
         <meta  property="og:image"  content="https://learn-anything.vn/assets/images/social/kien-thuc/python/su-dung-terminal-trong-google-colab.png" >
       
@@ -95,26 +95,24 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Dùng Terminal trong Colab - LEarn Anything" >
+        <meta  name="twitter:title"  content="Hướng dẫn sử dụng Terminal trong Google Colab với Xterm miễn phí - LEarn Anything" >
       
-        <meta  name="twitter:description"  content="Ignite curiosity. Inspire learning." >
+        <meta  name="twitter:description"  content="Cách sử dụng Terminal hoàn toàn miễn phí trong Google Colab để thực hiện các thao tác nâng cao với hệ điều hành Ubuntu của máy ảo Google." >
       
         <meta  name="twitter:image"  content="https://learn-anything.vn/assets/images/social/kien-thuc/python/su-dung-terminal-trong-google-colab.png" >
       
     
     
    <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-        html.glightbox-open { overflow: initial; height: 100%; }
-        .gslide-title { margin-top: 0px; user-select: text; }
-        .gslide-desc { color: #666; user-select: text; }
-        .gslide-image img { background: white; }
-        
-            .gscrollbar-fixer { padding-right: 15px; }
-            .gdesc-inner { font-size: 0.75rem; }
-            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -127,13 +125,15 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="vnstock" data-md-color-accent="indigo">
   
     
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
-    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#gioi-thieu" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -166,7 +166,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dùng Terminal trong Colab
+              Hướng dẫn sử dụng Terminal trong Google Colab với Xterm miễn phí
             
           </span>
         </div>
@@ -179,9 +179,9 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="vnstock" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="vnstock" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
       </label>
     
@@ -189,15 +189,18 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
       </label>
     
   
 </form>
       
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -442,6 +445,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../.." class="md-nav__link">
         
@@ -458,6 +462,7 @@
     
       
       
+  
   
   
   
@@ -478,14 +483,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -506,7 +511,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -523,6 +528,7 @@
             
               
                 
+  
   
   
   
@@ -546,6 +552,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../../gioi-thieu/dong-gop-phat-trien-learn-anything/" class="md-nav__link">
         
@@ -566,6 +573,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../../gioi-thieu/tieu-chuan-noi-dung-dong-gop/" class="md-nav__link">
         
@@ -583,6 +591,7 @@
             
               
                 
+  
   
   
   
@@ -613,6 +622,7 @@
   
   
   
+  
     
     
       
@@ -636,14 +646,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -651,7 +661,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -671,6 +681,7 @@
             
               
                 
+  
   
   
   
@@ -694,6 +705,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../obsidian/thiet-lap-ung-dung-ghi-chu-obsidian/" class="md-nav__link">
         
@@ -711,6 +723,7 @@
             
               
                 
+  
   
   
   
@@ -734,6 +747,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../obsidian/dong-bo-du-lieu-obsidian/" class="md-nav__link">
         
@@ -754,6 +768,7 @@
   
   
   
+  
     
     
       
@@ -763,14 +778,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -778,7 +793,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
         
           
-          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -801,6 +816,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../obsidian/huong-dan-su-dung-markdown-trong-obsidian/" class="md-nav__link">
         
@@ -818,6 +834,7 @@
             
               
                 
+  
   
   
   
@@ -849,6 +866,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../obsidian/excalidraw-canvas-ghi-chu-truc-quan-trong-obsidian/" class="md-nav__link">
         
@@ -869,6 +887,7 @@
   
   
   
+  
     
     
       
@@ -878,14 +897,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -893,7 +912,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_7" >
         
           
-          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -916,6 +935,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata" class="md-nav__link">
         
@@ -933,6 +953,7 @@
             
               
                 
+  
   
   
   
@@ -964,6 +985,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../obsidian/su-dung-obsidian-plugin-hieu-qua/" class="md-nav__link">
         
@@ -981,6 +1003,7 @@
             
               
                 
+  
   
   
   
@@ -1013,6 +1036,7 @@
     
   
   
+  
     
     
       
@@ -1036,14 +1060,17 @@
       
     
     
-    
-    
+      
+        
+        
       
       
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
@@ -1072,6 +1099,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../hoc-python-cung-learn-anything/" class="md-nav__link">
         
@@ -1089,6 +1117,7 @@
             
               
                 
+  
   
   
   
@@ -1112,6 +1141,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../cai-dat-thu-vien-python-cho-du-an/" class="md-nav__link">
         
@@ -1129,6 +1159,7 @@
             
               
                 
+  
   
   
   
@@ -1154,21 +1185,27 @@
     
   
   
+  
     
     
       
         
       
-    
-    
+        
+      
     
     
       
       
+        
+          
+          
+        
+      
+    
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-        
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
@@ -1196,7 +1233,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../huong-dan-su-dung-google-colab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Google Colab 101
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
+  
   
   
     <li class="md-nav__item md-nav__item--active">
@@ -1205,15 +1264,114 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Terminal miễn phí trong Colab
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Dùng Terminal trong Colab
+    Terminal miễn phí trong Colab
   </span>
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gioi-thieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Giới thiệu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#su-dung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sử dụng
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sử dụng">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#demo-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo notebook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cai-at" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cài đặt
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#khoi-ong-terminal-voi-xterm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Khởi động Terminal với Xterm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cac-cau-lenh-can-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Các câu lệnh căn bản
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cach-hanh-vi-bi-cam-trong-google-colab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cách hành vi bị cấm trong Google Colab
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1230,6 +1388,7 @@
             
               
                 
+  
   
   
   
@@ -1253,6 +1412,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../ly-do-hoc-python-khong-thanh-cong/" class="md-nav__link">
         
@@ -1273,6 +1433,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../huong-dan-dong-goi-python-package-pypi/" class="md-nav__link">
         
@@ -1290,6 +1451,7 @@
             
               
                 
+  
   
   
   
@@ -1320,6 +1482,7 @@
   
   
   
+  
     
     
       
@@ -1331,16 +1494,18 @@
       
         
       
-    
-    
+        
+      
     
     
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1348,7 +1513,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1371,6 +1536,7 @@
   
   
   
+  
     
     
       
@@ -1378,14 +1544,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1393,7 +1559,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_1" >
         
           
-          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1413,6 +1579,7 @@
             
               
                 
+  
   
   
   
@@ -1444,6 +1611,7 @@
   
   
   
+  
     
     
       
@@ -1451,14 +1619,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1466,7 +1634,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
         
           
-          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1486,6 +1654,7 @@
             
               
                 
+  
   
   
   
@@ -1517,6 +1686,7 @@
   
   
   
+  
     
     
       
@@ -1530,14 +1700,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1545,7 +1715,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
         
           
-          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1565,6 +1735,7 @@
             
               
                 
+  
   
   
   
@@ -1588,6 +1759,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../cong-nghe/jamstack/su-dung-github-page-tao-website-mien-phi/" class="md-nav__link">
         
@@ -1608,6 +1780,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../cong-nghe/jamstack/cai-dat-cong-cu-tao-trang-web-tinh-jekyll-ssg/" class="md-nav__link">
         
@@ -1625,6 +1798,7 @@
             
               
                 
+  
   
   
   
@@ -1656,6 +1830,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto/" class="md-nav__link">
         
@@ -1666,6 +1841,127 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cloud Server và tạo Bot
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Cloud Server và tạo Bot
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/thiet_lap_cloud_server_oracle_always_free/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tạo tài khoản Oracle Cloud
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/tao_may_chu_ao_linux_ubuntu_tren_oracle_cloud_server/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Thiết lập máy ảo Ubuntu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cong-nghe/tu_dong_thuc_hien_cong_viec_voi_cron_linux_ubuntu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lên lịch tác vụ tự động với Cron
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1683,6 +1979,7 @@
   
   
   
+  
     
     
       
@@ -1694,14 +1991,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1709,7 +2006,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1729,6 +2026,7 @@
             
               
                 
+  
   
   
   
@@ -1752,6 +2050,7 @@
   
   
   
+  
     
     
       
@@ -1761,14 +2060,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1776,7 +2075,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
         
           
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1799,6 +2098,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../phat-trien-ban-than/nguyen-tac-mece/" class="md-nav__link">
         
@@ -1816,6 +2116,7 @@
             
               
                 
+  
   
   
   
@@ -1847,6 +2148,7 @@
   
   
   
+  
     
     
       
@@ -1854,14 +2156,14 @@
       
     
     
-    
-    
       
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
         
           
@@ -1869,7 +2171,7 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
         
           
-          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1889,6 +2191,7 @@
             
               
                 
+  
   
   
   
@@ -1927,6 +2230,7 @@
   
   
   
+  
     <li class="md-nav__item">
       <a href="../../../khoa-hoc/hoc-tap-cung-learn-anything/" class="md-nav__link">
         
@@ -1961,6 +2265,83 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#gioi-thieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Giới thiệu
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#su-dung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sử dụng
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sử dụng">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#demo-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demo notebook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cai-at" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cài đặt
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#khoi-ong-terminal-voi-xterm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Khởi động Terminal với Xterm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cac-cau-lenh-can-ban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Các câu lệnh căn bản
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cach-hanh-vi-bi-cam-trong-google-colab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cách hành vi bị cấm trong Google Colab
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1972,13 +2353,114 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <span class="md-tag">terminal</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">ubuntu</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">linux</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">google colab</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">chuyên sâu</span>
+    
+  
+</nav>
+
 
   
   
 
 
-  <h1>Dùng Terminal trong Colab</h1>
+  <h1>Terminal miễn phí trong Colab</h1>
 
+<h2 id="gioi-thieu">Giới thiệu<a class="headerlink" href="#gioi-thieu" title="Nội dung chính">&para;</a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Giới thiệu</p>
+<p>Google Colab Terminal được cung cấp trong gói thuê bao hàng tháng bắt đầu với 9.99 USD. Tuy nhiên không phải lúc nào chúng ta cũng thực sự cần tính năng này. Xterm là một giải pháp tuyệt vời để bạn có thể khởi động Temrinal riêng trong Colab để sử dụng trong một số trường hợp đặc biệt. Nói một cách dễ hiểu, Xtern là chương trình giả lập cho phép sử dụng giao diện dòng lệnh trong Linux, ở đây bạn sử dụng với Colab để tương tác với phần hệ thống máy ảo Ubuntu.</p>
+</div>
+<p>Về căn bản, Google sử dụng máy ảo với hệ điều hành Ubuntu để cung cấp dịch vụ Google Colab tới người dùng. Do đó, các thao tác trực tiếp với Terminal cho phép bạn cài đặt và bổ sung các tính năng mình muốn tùy ý (không thể thực hiện với giao diện Colab đồ họa).</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/content# lsb_release -a
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>----
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>No LSB modules are available.
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Distributor ID: Ubuntu
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Description:    Ubuntu 22.04.3 LTS
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Release:        22.04
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>Codename:       jammy
+</span></code></pre></div>
+<h2 id="su-dung">Sử dụng<a class="headerlink" href="#su-dung" title="Nội dung chính">&para;</a></h2>
+<h3 id="demo-notebook">Demo notebook<a class="headerlink" href="#demo-notebook" title="Nội dung chính">&para;</a></h3>
+<p>Để sử dụng tính năng Terminal trong Colab, bạn có thể bắt đầu nhanh bằng việc mở Notebook dưới đây và tương tác trực tiếp. Một số gợi ý trong hướng dẫn này cũng giúp bạn sử dụng tính năng terminal hiệu quả và tránh các hành vi bị cấm bởi Google.</p>
+<p><a class="md-button" href="https://colab.research.google.com/gist/thinh-vu/52cfa8da9343bb777cc3a77e592fdcb4/s-d-ng-terminal-trong-google-colab-v-i-xterm-learn-anything.ipynb">Khởi động Demo Notebook</a></p>
+<h3 id="cai-at">Cài đặt<a class="headerlink" href="#cai-at" title="Nội dung chính">&para;</a></h3>
+<p>Mở một ô lệnh bất kỳ, paste và chạy câu lệnh sau (Đã có trong file demo):</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>!pip install colab-xterm
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>%load_ext colabxterm
+</span></code></pre></div>
+<h3 id="khoi-ong-terminal-voi-xterm">Khởi động Terminal với Xterm<a class="headerlink" href="#khoi-ong-terminal-voi-xterm" title="Nội dung chính">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>window_height = 800 # Cài đặt chiều cao cửa sổ Terminal
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>port = 1001
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>%xterm height={window_height} port={port}
+</span></code></pre></div>
+<h3 id="cac-cau-lenh-can-ban">Các câu lệnh căn bản<a class="headerlink" href="#cac-cau-lenh-can-ban" title="Nội dung chính">&para;</a></h3>
+<ul>
+<li><code>ls</code>: Liệt kê các file và folder trong thư mục hiện tại</li>
+<li><code>lsb_release -a</code>: Hiển thị thông tin phiên bản hệ điều hành. Hệ thống sử dụng Ubuntu LTS, phiên bản 22.04 tại thời điểm 4/4/2024</li>
+<li><code>sudo apt install nano</code>: Cài đặt text editor Nano. Terminal này cho phép bạn sử dụng Colab như một máy Ubuntu thông thường.</li>
+<li><code>nano hello.txt</code>: Mở hoặc tạo 1 file tên hello.txt để soạn thảo lệnh hoặc ghi chú.</li>
+<li><code>sudo apt install cron</code>: Cài đặt cron để thao tác lên lịch tác vụ cần chạy.</li>
+</ul>
+<h2 id="cach-hanh-vi-bi-cam-trong-google-colab">Cách hành vi bị cấm trong Google Colab<a class="headerlink" href="#cach-hanh-vi-bi-cam-trong-google-colab" title="Nội dung chính">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Lưu ý</p>
+<p>Để duy trì dịch vụ luôn miễn phí cho mọi người, Google Colab nghiêm cấm các hành vi gây ra tác động tiêu cực tới hệ thống hoặc thực hiện các hoạt động gây hại không được phép. Bạn cần lưu ý một số thao tác không được Google khuyến khích trong <a href="https://research.google.com/colaboratory/faq.html">FAQ</a>, cụ thể như dưới đây:</p>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>- file hosting, media serving, or other web service offerings not related to interactive compute with Colab
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>- downloading torrents or engaging in peer-to-peer file-sharing
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>- connecting to remote proxies
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>- mining cryptocurrency
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>- running denial-of-service attacks
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>- password cracking
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>- using multiple accounts to work around access or resource usage restrictions
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>- creating deepfakes
+</span></code></pre></div>
+<p>Ngoài các hành vi kể trên, các hành vi dưới đây không được khuyến khích với người dùng sử dụng bản Colab miễn phí và có thể bị ngăn chặn bất cứ lúc nào mà không cần thông báo trước.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>- remote control such as SSH shells, remote desktops
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>- bypassing the notebook UI to interact primarily via a web UI
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>- chess training
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>- running distributed computing workers
+</span></code></pre></div>
+
+
+
+
+
+
+
+  
+  
 
 
 
@@ -1992,6 +2474,7 @@
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
@@ -2009,7 +2492,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../lap-trinh-python-bang-ai-cho-moi-nguoi/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lập trình với AI">
+          <a href="../huong-dan-su-dung-google-colab/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Google Colab 101">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2019,7 +2502,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Lập trình với AI
+                Google Colab 101
               </div>
             </div>
           </a>
@@ -2061,7 +2544,7 @@
       
     
     <a href="https://www.youtube.com/@learn_anything_az?sub_confirmation=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
     </a>
   
     
@@ -2072,7 +2555,7 @@
       
     
     <a href="https://www.facebook.com/learn.anything.az" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256z"/></svg>
     </a>
   
     
@@ -2083,7 +2566,7 @@
       
     
     <a href="https://learnanything.substack.com/" target="_blank" rel="noopener" title="learnanything.substack.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 48v439.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400l153.7 107.6c4.1 2.9 9 4.4 14 4.4 13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 48v439.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400l153.7 107.6c4.1 2.9 9 4.4 14 4.4 13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
     </a>
   
     
@@ -2094,7 +2577,7 @@
       
     
     <a href="https://learn-anything.vn" target="_blank" rel="noopener" title="learn-anything.vn" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7zm-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6zM8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zm186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6h116.7zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.6z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zm28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7zm-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6zM8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zm186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6h116.7zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.6z"/></svg>
     </a>
   
 </div>
@@ -2111,11 +2594,11 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.code.annotate", "content.tooltips", "search.suggest", "search.highlight", "search.share", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "navigation.footer", "navigation.indexes", "toc.follow", "navigation.top"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.code.annotate", "content.tooltips", "search.suggest", "search.highlight", "search.share", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.path", "navigation.footer", "navigation.indexes", "toc.follow", "navigation.top"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
   
-      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
         <script src="../../../javascripts/mathjax.js"></script>
       
