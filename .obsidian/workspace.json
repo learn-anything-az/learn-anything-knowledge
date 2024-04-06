@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "633ce0f33585e5b2",
+        "id": "0d06c7943ab02d82",
         "type": "tabs",
         "children": [
           {
-            "id": "a1d95c4211247e61",
+            "id": "771a7a20a9d4ac13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.md",
+                "file": "docs/khoa-hoc/hoc-tap-cung-learn-anything.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.md",
+                "file": "docs/khoa-hoc/hoc-tap-cung-learn-anything.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.md",
+                "file": "docs/khoa-hoc/hoc-tap-cung-learn-anything.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.md"
+                "file": "docs/khoa-hoc/hoc-tap-cung-learn-anything.md"
               }
             }
           }
@@ -146,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1d95c4211247e61",
+  "active": "771a7a20a9d4ac13",
   "lastOpenFiles": [
+    "docs/gioi-thieu/thinhvu-learn-anything-vnstock.md",
+    "docs/assets/images/Python_Course_K6_vnstock_learn_anything_cover.png",
+    "docs/khoa-hoc/Python_Course_K6_vnstock_learn_anything_cover.png",
+    "docs/khoa-hoc/Python Course K6 Main Banner.png",
+    "docs/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.md",
     "docs/kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata.md",
     "site/assets/images/social/kien-thuc/python/thiet-lap-moi-truong-python.png",
     "site/assets/images/social/kien-thuc/python/tai-lieu-tu-hoc-phan-tich-du-lieu-voi-python.png",
@@ -156,9 +161,6 @@
     "site/assets/images/social/kien-thuc/python/ly-do-hoc-python-khong-thanh-cong.png",
     "site/assets/images/social/kien-thuc/python/lap-trinh-python-de-dang-voi-google-colab-ai.png",
     "site/assets/images/social/kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.png",
-    "site/assets/images/social/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.png",
-    "site/assets/images/social/kien-thuc/python/huong-dan-su-dung-google-colab.png",
-    "site/assets/images/social/kien-thuc/python/huong-dan-dong-goi-python-package-pypi.png",
     "site/assets/images/social/kien-thuc/python",
     "site/feed_rss_updated.xml",
     "site/feed_rss_created.xml",
@@ -183,7 +185,6 @@
     "docs/kien-thuc/obsidian/huong-dan-su-dung-obsidian-dataview.md",
     "docs/kien-thuc/python/su-dung-terminal-trong-google-colab.md",
     "docs/kien-thuc/python/lap-trinh-python-de-dang-voi-google-colab-ai.md",
-    "docs/kien-thuc/python/khai-niem-thong-ke-can-ban-statistics-101.md",
     "().md"
   ]
 }
