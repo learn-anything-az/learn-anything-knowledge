@@ -17,28 +17,15 @@ authors:
 
 <div class="result" markdown>
 
-![Image title](../assets/images/python_course_5_build_your_own_trading_bot_from_scratch.png){ align=left width=600 }
+![Thông tin khóa](../assets/images/Python_Course_K6_vnstock_learn_anything_cover.png){ align=left width=600 }
 
-Khóa học Phân tích dữ liệu với Python K5 sẽ được triển khai từ 1/2024 đến 3/2024. Khóa học thứ 5 của chương trình đào tạo Python này sẽ được xây dựng theo kiểu "guided tour" giúp bình dân hóa Python cho những kẻ tay mơ hoặc đang học tập nửa vời để đầu tư chứng khoán.
+Khóa học Phân tích dữ liệu & tạo bot chứng khoán với Python K6 sẽ được triển khai từ 21/4/2024 đến tháng 6/2024. Khóa học thứ 6 của chương trình đào tạo Python này sẽ được xây dựng theo kiểu "guided tour" giúp bình dân hóa Python cho anh chị em quan tâm tới ứng dụng ngôn ngữ lập trình Python trong việc hỗ trợ tự động hóa việc phân tích và đầu tư "nhàn" mà hiệu quả hơn.
 
 [Mô tả khóa học :material-account-school:](https://docs.vnstock.site/course/#khoa-hoc-ang-trien-khai){ .md-button }
 
 </div>
 
-<!-- Adding a break for separation -->
-<br clear="all"/>
-<div class="result" markdown>
-
-![Image title](https://course.learn-anything.vn/wp-content/uploads/2023/10/phan-tich-du-lieu-voi-python-4.png){ align=left width=600 }
-
-Khóa học Phân tích dữ liệu với Python K4 đang triển khai từ 10/2023 đến 1/2024. Khóa học cung cấp lộ trình làm chủ Python trong việc xử lý dữ liệu và ứng dụng rộng rãi trong hầu hết các ngành nghề kinh doanh. Sau khi kết thúc khóa học bạn sẽ có kỹ năng sử dụng Python từ cơ bản đến trung cấp giúp bạn tự tin khám phá bất kỳ ứng dụng nào trên nền tảng Python.
-
-[Truy cập khóa học :material-account-school:](https://course.learn-anything.vn/course/phan-tich-du-lieu-voi-python-khoa-4/){ .md-button }
-
-</div>
-
-<!-- Adding a break for separation -->
-<br clear="all"/>
+<!-- <br clear="all"/>
 
 <div class="result" markdown>
 
@@ -48,5 +35,5 @@ Khóa học Web Scraping với Python theo hình thức học trực tuyến qua
 
 [Truy cập khóa học :material-account-school:](https://course.learn-anything.vn/course/python-web-scraping-thu-thap-du-lieu-web/){ .md-button }
 
-</div>
+</div> -->
 
