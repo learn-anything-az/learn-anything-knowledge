@@ -217,7 +217,9 @@ nav:
     - Soạn thảo ghi chú markdown: 
       - Cú pháp markdown: kien-thuc/obsidian/huong-dan-su-dung-markdown-trong-obsidian.md
       - Làm việc với bảng trong obsidian: kien-thuc/obsidian/tao-va-chinh-sua-bang-obsidian.md
-    - Ghi chú trực quan & lưu đồ: kien-thuc/obsidian/excalidraw-canvas-ghi-chu-truc-quan-trong-obsidian.md
+    - Ghi chú trực quan & lưu đồ: 
+      - Sử dụng Excalidraw: kien-thuc/obsidian/excalidraw-canvas-ghi-chu-truc-quan-trong-obsidian.md
+      - Sử dụng Obsidian Canvas: kien-thuc/obsidian/y-tuong-sang-tao-voi-obsidian-canvas.md
     - Tổ chức thông tin trong Obsidian: 
       - Sử dụng thuộc tính & mô tả: kien-thuc/obsidian/quan-ly-ghi-chu-obsidian-bang-properties-metadata
       - Cấu trúc Obsidian Vault: kien-thuc/obsidian/to-chuc-thong-tin-trong-obsidian-hieu-qua.md
