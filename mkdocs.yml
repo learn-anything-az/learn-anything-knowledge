@@ -228,7 +228,7 @@ nav:
   - Python: 
     - Giới thiệu: kien-thuc/python/hoc-python-cung-learn-anything.md
     - Thiết lập môi trường Python: kien-thuc/python/thiet-lap-moi-truong-python.md
-    - Cài đặt gói thư viện Python: kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md
+    - Code với IDE & cài đặt thư viện Python: kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md
     - Lập trình với AI: kien-thuc/python/lap-trinh-python-bang-ai-cho-moi-nguoi.md
     - Google Colab toàn tập: 
         - Google Colab 101: kien-thuc/python/huong-dan-su-dung-google-colab.md

@@ -11,6 +11,13 @@ authors:
 ---
 # Khởi động môi trường Python
 
+# Thiết lập môi trường Python
+
+!!! abstract "Môi trường Python"
+	Môi trường Python là nơi bạn cấu hình các thành phần chính của hệ thống để có thể soạn thảo lệnh, thực thi hay triển khai ứng dụng Python trong quá trình sử dụng. Bạn có thể sử dụng các dịch vụ đám mây một cách tiện lợi, luôn sẵn sàng để dùng ngay hoặc dành thêm chút thời gian để cài đặt đầy đủ bộ công cụ trên môi trường máy tính cục bộ của mình, sử dụng cấu hình phần cứng sẵn có mà không phải trả thêm phí dịch vụ không cần thiết.
+
+<iframe width="914" height="514"src="https://www.youtube.com/embed/uqxHCHDLqRE?si=bIQ_w4LiEKeNA012" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Python trên cloud
 
 !!! abstract "Chọn môi trường Python phù hợp"

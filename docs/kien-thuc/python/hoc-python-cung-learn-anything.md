@@ -12,6 +12,11 @@ authors:
 
 # Học python dễ hiểu cùng LEarn Anything
 
+
+## Sao phải biết Python?
+
+<iframe width="914" height="514"src="https://www.youtube.com/embed/7pO-wt0N2aE?si=Z0z8vfRNZpDWvmZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Python là gì?
 !!! abstract "Python là gì?"
 	[**Python**](https://python.org/) là một ngôn ngữ lập trình đa năng do Guido van Rossum tạo ra và ra mắt lần đầu tiên vào năm 1991. Cú pháp của ngôn ngữ Python thân thiện như dùng tiếng Anh phổ thông do đó rất dễ học và dễ nhớ cho hầu hết mọi người khi lần đầu tiếp xúc với lập trình. 
