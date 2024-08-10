@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
+                "file": "kien-thuc/phat-trien-ban-than/phat-trien-chuyen-mon-ban-nang-hay-chien-luoc.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
+                "file": "kien-thuc/phat-trien-ban-than/phat-trien-chuyen-mon-ban-nang-hay-chien-luoc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
+                "file": "kien-thuc/phat-trien-ban-than/phat-trien-chuyen-mon-ban-nang-hay-chien-luoc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md"
+                "file": "kien-thuc/phat-trien-ban-than/phat-trien-chuyen-mon-ban-nang-hay-chien-luoc.md"
               }
             }
           },
@@ -170,9 +170,15 @@
   },
   "active": "9a1f3e45eb37140d",
   "lastOpenFiles": [
+    "assets/images/mo hinh phat trien chuyen mon T shaped model.png",
+    "assets/images/mo-hinh-chuyen-mon-hoa-phat-trien-su-nghiep-I-T-H-M.png",
+    "assets/images/Pasted image 20240810141124.png",
+    "kien-thuc/phat-trien-ban-than/bat-dau-voi-cau-hoi-tai-sao.md",
+    "kien-thuc/phat-trien-ban-than/phat-trien-chuyen-mon-ban-nang-hay-chien-luoc.md",
+    "kien-thuc/phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md",
+    "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
     "assets/images/xem-thay-doi-trong-ma-nguon-github.png",
     "kien-thuc/obsidian/su-dung-obsidian-trong-xuat-ban-chia-se-noi-dung.md",
-    "kien-thuc/cong-nghe/xuat-ban-noi-dung-markdown-voi-quarto.md",
     "kien-thuc/obsidian/xuat-ban-noi-dung-markdown-voi-quarto.md",
     "assets/images/msedge_IVL6J8HeqY.png.~tmp",
     "assets/images/file_pdf_xuat_tu_quarto_voi_cau_hinh_yaml_front_matter_mau.png.~tmp",
@@ -208,13 +214,7 @@
     "kien-thuc/python/cai-dat-thu-vien-python-cho-du-an.md",
     "kien-thuc/phat-trien-ban-than/tot-hon-moi-ngay-learn-anything.md",
     "kien-thuc/phat-trien-ban-than/nguyen-tac-mece.md",
-    "kien-thuc/phat-trien-ban-than/nguyen-ly-kim-tu-thap-minto.md",
-    "kien-thuc/phat-trien-ban-than/cai-thien-kha-nang-tu-hoc-voi-phuong-phap-feynman.md",
-    "kien-thuc/phat-trien-ban-than/bat-dau-voi-cau-hoi-tai-sao.md",
     "assets/images/python_course_5_build_your_own_trading_bot_from_scratch.png",
-    "assets/images/python_course_4_thinhvu_square.png",
-    "assets/images/prompt-yeu-cau-github-copilot-viet-code-trong-visual-studio-code.png",
-    "assets/images/obsidian-text-editor-zone-soan-thao-van-ban-tren-mobile.png",
-    "assets/images/obsidian-text-editor-zone-soan-thao-van-ban-tren-desktop.png"
+    "assets/images/python_course_4_thinhvu_square.png"
   ]
 }
